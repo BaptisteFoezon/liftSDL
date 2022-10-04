@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Diagram SYSTEM "rtdsDiagram.dtd">
+
+<SdlFSMDiagram language="sdl" type="prcd" is_extract="FALSE" is_temporary="FALSE">
+<SdlFSMPartition name="" needs_cleanup="FALSE">
+<SdlFSMSymbol identifier="SYM1" type="sdlText" text="Returns Boolean;" outline_color="-" background_color="-" center_coordinates="199 110" dimensions="148 40" attached_symbol_id=""/>
+<NonStateTransition top_left_coordinates="461 174">
+<SdlFSMSymbol identifier="SYM2" type="sdlPrcdStart" outline_color="-" background_color="-" center_coordinates="571 189" dimensions="60 30" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM7" type="sdlTask" text="timeDiff := NOW - tdepart" outline_color="-" background_color="-" center_coordinates="571 236" dimensions="220 40" attached_symbol_id=""/>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM4" type="sdlDecision" text="timeDiff" outline_color="-" background_color="-" center_coordinates="571 288" dimensions="84 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM5" type="sdlAnswer" text=" &lt;tpsPassageEtage" outline_color="-" background_color="-" center_coordinates="571 340" dimensions="156 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM31" type="sdlSendSig" text="erreurCapteurIntempestif" outline_color="-" background_color="-" center_coordinates="571 392" dimensions="212 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM36" type="sdlPrcdReturn" text="false" outline_color="-" background_color="-" center_coordinates="571 438" dimensions="28 28" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM6" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="773 340" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM19" type="sdlDecision" text="etage" outline_color="-" background_color="-" center_coordinates="773 392" dimensions="60 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM20" type="sdlAnswer" text="etageMin : etageMax" outline_color="-" background_color="-" center_coordinates="773 444" dimensions="172 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM22" type="sdlDecision" text="etage" outline_color="-" background_color="-" center_coordinates="773 496" dimensions="60 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM23" type="sdlAnswer" text="etageCourant + sens" outline_color="-" background_color="-" center_coordinates="773 548" dimensions="172 40" attached_symbol_id=""/>
+<Transition>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM24" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="971 548" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM25" type="sdlSendSig" text="erreurArriverInInterval" outline_color="-" background_color="-" center_coordinates="971 600" dimensions="204 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM34" type="sdlPrcdReturn" text="false" outline_color="-" background_color="-" center_coordinates="971 646" dimensions="28 28" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM21" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="1177 444" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM27" type="sdlSendSig" text="erreurArriverInterval" outline_color="-" background_color="-" center_coordinates="1177 496" dimensions="188 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM35" type="sdlPrcdReturn" text="false" outline_color="-" background_color="-" center_coordinates="1177 542" dimensions="28 28" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+<SdlFSMSymbol identifier="SYM8" type="sdlPrcdReturn" text="true" outline_color="-" background_color="-" center_coordinates="773 710" dimensions="28 28" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NonStateTransition>
+<PageSpecification pageWidth="21.0" pageHeight="29.7" topMargin="1.0" bottomMargin="1.0" leftMargin="1.0" rightMargin="1.0" pageFooter="TRUE" scaleFactor="1.0"/>
+</SdlFSMPartition>
+</SdlFSMDiagram>

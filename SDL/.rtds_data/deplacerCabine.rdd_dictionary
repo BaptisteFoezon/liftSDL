@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DictionaryObjects SYSTEM "rtdsDictionaryObjects.dtd">
+
+<DictionaryObjects version="10135" language="sdl" diagramType="prcd">
+<Signal id="SIG1" name="monter">
+<UsingSymbols>
+<SymbolReference symbolId="SYM12" usingKind="output"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG2" name="descendre">
+<UsingSymbols>
+<SymbolReference symbolId="SYM13" usingKind="output"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG3" name="timerPassageEtage" isTimer="TRUE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM16" usingKind="output"/>
+</UsingSymbols>
+</Signal>
+<Item id="ITEM1" type="procedure" name="deplacerCabine" scope="current" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" procedureKind="NORMAL_PROCEDURE" procedureReturnType="Integer" procedureReturnTypeId="ITEM2">
+<Prototype>
+<Signature>deplacerCabine</Signature>
+</Prototype>
+<Body>
+<SentSignals>
+<SignalReference id="SIG1"/>
+<SignalReference id="SIG2"/>
+<SignalReference id="SIG3"/>
+</SentSignals>
+</Body>
+</Item>
+<Item id="ITEM10" type="timer" name="timerPassageEtage" scope="process" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM16"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM2" type="type" name="Integer" scope="global" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM3" type="variable" name="NOW" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM16"/>
+<SymbolReference symbolId="SYM18"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM4" type="variable" name="tpsLimitePassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM16"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM5" type="variable" name="etageServi" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM3"/>
+<SymbolReference symbolId="SYM4"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM6" type="variable" name="etageCourant" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM4"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM7" type="variable" name="tdepart" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM18"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM8" type="variable" name="etage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM3"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM9" type="variable" name="sens" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM15"/>
+<SymbolReference symbolId="SYM14"/>
+<SymbolReference symbolId="SYM8"/>
+<SymbolReference symbolId="SYM11"/>
+<SymbolReference symbolId="SYM10"/>
+</UsingSymbols>
+</Item>
+</DictionaryObjects>

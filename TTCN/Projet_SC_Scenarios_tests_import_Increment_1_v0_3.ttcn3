@@ -1,0 +1,295 @@
+module Projet_SC_Scenarios_tests_import_Increment_1_v0_3
+{
+  type integer natural (0 .. infinity)
+   
+  type record appeler {
+    natural param1  
+  }
+  type record voyager {
+    natural param1  
+  }
+  type record arriver {
+    natural param1  
+  }
+  
+  type enumerated monter { e_monter }
+  type enumerated descendre { e_descendre }
+  type enumerated stopper { e_stopper }
+  
+  type enumerated erreurArriverTropTard { e_erreurArriverTropTard };
+  type enumerated erreurArriverInterval { e_erreurArriverInterval };
+  type enumerated erreurArriverInInterval {e_erreurArriverInInterval};
+  type enumerated erreurCapteurIntempestif {e_erreurCapteurIntempestif};
+  type enumerated erreurTODO1 { e_erreurTODO1 };
+  type enumerated erreurTODO2 { e_erreurTODO2 };
+  type enumerated erreurTODO3 { e_erreurTODO3 };
+  type enumerated erreurTODOetc { e_erreurTODOetc };
+  
+  
+  template appeler sAppeler(natural etage) := { param1 := etage };
+  template voyager sVoyager(natural etage) := { param1 := etage };
+  template arriver sArriver(natural etage) := { param1 := etage };
+  
+  template monter sMonter := ?;
+  template descendre sDescendre := ?;
+  template stopper sStopper := ?;
+  
+  template erreurArriverTropTard sErreurArriverTropTard := ?;
+  template erreurArriverInterval sErreurArriverInterval := ?;
+  template erreurArriverInInterval sErreurArriverInInterval := ?;
+  template erreurCapteurIntempestif sErreurCapteurIntempestif := ?;
+  template erreurTODO1 sErreurTODO1 := ?;
+  template erreurTODO2 sErreurTODO2 := ?;
+  template erreurTODO3 sErreurTODO3 := ?;
+  template erreurTODOetc sErreurTODOetc := ?;
+  
+  
+  type port CommandesEtages_p message {
+    out appeler;
+  }
+  
+  type port CapteursEtages_p message {
+    out arriver;
+  }
+    
+  type port CommandesCabine_p message {
+    out voyager;
+  }
+  
+  type port Moteur_p message {
+    in monter;
+    in descendre;
+    in stopper;
+  }
+  
+  type port Erreur_p message {
+    in erreurArriverTropTard;
+    in erreurArriverInterval;
+    in erreurArriverInInterval;
+    in erreurCapteurIntempestif
+    in erreurTODO1;
+    in erreurTODO2;
+    in erreurTODO3;
+    in erreurTODOetc;
+  }
+  
+  type component Ascenseur 
+  {
+    const natural tpsAttenteServiceVoyage := 5;
+    const natural tpsAttenteFinService := 5;
+    
+    const natural etageMin := 0;
+    const natural etageMax := 5;
+    
+    const natural tpsPassageEtage := 10;
+    const natural tpsLimitePassageEtage := 11; // := tpsPassageEtage + 1;
+    const natural tpsInfPassageEtage := 3;
+    
+    const natural expectTimeout := 3;
+    const natural expectTimeoutNothing := 1;
+  
+    port CommandesEtages_p CommandesEtages;
+    port CapteursEtages_p CapteursEtages;
+    port CommandesCabine_p CommandesCabine;
+    port Moteur_p Moteur;
+    port Erreur_p Erreur;
+    
+    timer tDelay;
+    timer tTimeout;
+    timer tNothing;
+    
+    var boolean tc_continue;
+  }
+  
+  
+  function delay(natural time) runs on Ascenseur {
+    tDelay.start(time); tDelay.timeout;
+  }
+  
+  
+  altstep tc_fail() runs on Ascenseur
+  {
+    [] Moteur.receive {
+      setverdict(fail, "Fail (Moteur)");
+      tc_continue := false;
+    }
+    [] tTimeout.timeout {
+      setverdict(fail, "Fail (timeout)");
+      tc_continue := false;
+    }
+  }
+  
+  function tc_init() runs on Ascenseur 
+  {
+    activate(tc_fail());
+    tc_continue := true;
+  }
+  
+  
+  function sendAppeler(natural etage) runs on Ascenseur 
+  {
+    CommandesEtages.send(sAppeler(etage));
+  }
+  
+  function sendVoyager(natural etage) runs on Ascenseur
+  {
+    CommandesCabine.send(sVoyager(etage));
+  }
+  
+  function sendArriver(natural etage) runs on Ascenseur
+  {
+    CapteursEtages.send(sArriver(etage));
+  }
+  
+  
+  function expectMonter() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Moteur.receive(sMonter) { 
+        setverdict(pass, "Pass (Monter)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectDescendre() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Moteur.receive(sDescendre) { 
+        setverdict(pass, "Pass (Descendre)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+
+  function expectStopper() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Moteur.receive(sStopper) { 
+        setverdict(pass, "Pass (Stopper)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectNothing() runs on Ascenseur
+  {
+    tNothing.start(expectTimeoutNothing);
+    alt {
+      [] tNothing.timeout { setverdict(pass, "Pass (nothing)"); }
+    }
+  }
+  
+  function expectPasseEtage() runs on Ascenseur
+  {
+    tNothing.start(tpsPassageEtage);
+    alt {
+      [] tNothing.timeout { setverdict(pass, "Pass (Etage)"); }
+    }
+  }
+  
+  
+  function expectErreurArriverTropTard() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurArriverTropTard) { 
+        setverdict(pass, "Pass (Erreur Arriver Trop Tard)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  
+  function expectErreurArriverInterval() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurArriverInterval) { 
+        setverdict(pass, "Pass (Erreur Arriver Interval)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+    function expectErreurArriverInInterval() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurArriverInInterval) { 
+        setverdict(pass, "Pass (Erreur Arriver InInterval)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+    function expectErreurCapteurIntempestif() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurCapteurIntempestif) { 
+        setverdict(pass, "Pass (Erreur Capteur Intempestif)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+    function expectErreur() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurArriverInInterval) { 
+        setverdict(pass, "Pass (Erreur Arriver Interval)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectErreurTODO1() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurTODO1) { 
+        setverdict(pass, "Pass (Erreur TODO1)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectErreurTODO2() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurTODO2) { 
+        setverdict(pass, "Pass (Erreur TODO2)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectErreurTODO3() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurTODO3) { 
+        setverdict(pass, "Pass (Erreur TODO3)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+  function expectErreurTODOetc() runs on Ascenseur 
+  {
+    tTimeout.start(expectTimeout);
+    alt {
+      [] Erreur.receive(sErreurTODOetc) { 
+        setverdict(pass, "Pass (Erreur TODOetc)"); 
+        tTimeout.stop;
+      }
+    }
+  }
+  
+}

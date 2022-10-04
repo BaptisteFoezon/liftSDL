@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DictionaryObjects SYSTEM "rtdsDictionaryObjects.dtd">
+
+<DictionaryObjects version="10135" language="sdl" diagramType="prcs">
+<Signal id="SIG1" name="appeler">
+<UsingSymbols>
+<SymbolReference symbolId="SYM66" usingKind="input"/>
+<SymbolReference symbolId="SYM35" usingKind="input"/>
+<SymbolReference symbolId="SYM7" usingKind="input"/>
+<SymbolReference symbolId="SYM84" usingKind="input"/>
+<SymbolReference symbolId="SYM79" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG2" name="timerAttenteServiceVoyage" isTimer="TRUE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM45" usingKind="output"/>
+<SymbolReference symbolId="SYM18" usingKind="output"/>
+<SymbolReference symbolId="SYM63" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG3" name="voyager">
+<UsingSymbols>
+<SymbolReference symbolId="SYM22" usingKind="input"/>
+<SymbolReference symbolId="SYM48" usingKind="input"/>
+<SymbolReference symbolId="SYM35" usingKind="input"/>
+<SymbolReference symbolId="SYM84" usingKind="input"/>
+<SymbolReference symbolId="SYM79" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG4" name="timerAttenteFinService" isTimer="TRUE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM75" usingKind="output"/>
+<SymbolReference symbolId="SYM29" usingKind="output"/>
+<SymbolReference symbolId="SYM60" usingKind="output"/>
+<SymbolReference symbolId="SYM82" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG5" name="arriver">
+<UsingSymbols>
+<SymbolReference symbolId="SYM38" usingKind="input"/>
+<SymbolReference symbolId="SYM69" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG6" name="timerPassageEtage">
+<UsingSymbols>
+<SymbolReference symbolId="SYM97" usingKind="input"/>
+<SymbolReference symbolId="SYM100" usingKind="input"/>
+</UsingSymbols>
+</Signal>
+<Signal id="SIG7" name="erreurArriverTropTard">
+<UsingSymbols>
+<SymbolReference symbolId="SYM101" usingKind="output"/>
+<SymbolReference symbolId="SYM98" usingKind="output"/>
+</UsingSymbols>
+</Signal>
+<Item id="ITEM1" type="process" name="Spirou" scope="current" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<Body>
+<SentSignals>
+<SignalReference id="SIG2"/>
+<SignalReference id="SIG4"/>
+<SignalReference id="SIG7"/>
+</SentSignals>
+<ReceivedSignals>
+<SignalReference id="SIG3"/>
+<SignalReference id="SIG5"/>
+<SignalReference id="SIG1"/>
+<SignalReference id="SIG6"/>
+<SignalReference id="SIG2"/>
+<SignalReference id="SIG4"/>
+</ReceivedSignals>
+</Body>
+</Item>
+<Item id="ITEM10" type="type" name="Time" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM86"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM11" type="variable" name="false" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM42"/>
+<SymbolReference symbolId="SYM73"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM12" type="variable" name="sens" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM4"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM13" type="variable" name="tpsAttenteFinService" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM75"/>
+<SymbolReference symbolId="SYM29"/>
+<SymbolReference symbolId="SYM60"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM14" type="procedure" name="arreterCabine" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM71"/>
+<SymbolReference symbolId="SYM40"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM15" type="variable" name="tpsAttenteServiceVoyage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM45"/>
+<SymbolReference symbolId="SYM18"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM16" type="procedure" name="deplacerCabine" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM52"/>
+<SymbolReference symbolId="SYM12"/>
+<SymbolReference symbolId="SYM24"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM17" type="variable" name="sens" parentId="ITEM1" scope="none" variableTypeName="Integer" variableTypeId="ITEM6" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM86" positions="5,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM18" type="variable" name="etageServi" parentId="ITEM1" scope="none" variableTypeName="Natural" variableTypeId="ITEM4" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM86" positions="3,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM19" type="variable" name="etage" parentId="ITEM1" scope="none" variableTypeName="Natural" variableTypeId="ITEM4" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM86" positions="1,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM2" type="variable" name="NOW" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM75"/>
+<SymbolReference symbolId="SYM45"/>
+<SymbolReference symbolId="SYM29"/>
+<SymbolReference symbolId="SYM60"/>
+<SymbolReference symbolId="SYM18"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM20" type="variable" name="tdepart" parentId="ITEM1" scope="none" variableTypeName="Time" variableTypeId="ITEM10" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM86" positions="4,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM21" type="variable" name="etageCourant" parentId="ITEM1" scope="none" variableTypeName="Natural" variableTypeId="ITEM4" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM86" positions="2,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM22" type="procedure" name="deplacerCabine" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" procedureKind="NORMAL_PROCEDURE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM88"/>
+</DefiningSymbols>
+<Prototype>
+<Signature>deplacerCabine</Signature>
+</Prototype>
+</Item>
+<Item id="ITEM23" type="procedure" name="arreterCabine" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" procedureKind="NORMAL_PROCEDURE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM89"/>
+</DefiningSymbols>
+<Prototype>
+<Signature>arreterCabine</Signature>
+</Prototype>
+</Item>
+<Item id="ITEM24" type="procedure" name="verification" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" procedureKind="NORMAL_PROCEDURE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM125"/>
+</DefiningSymbols>
+<Prototype>
+<Signature>verification</Signature>
+</Prototype>
+</Item>
+<Item id="ITEM25" type="variable" name="timediff" parentId="ITEM1" scope="none" variableTypeName="Duration" variableTypeId="ITEM7" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM126" positions="1,0"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM26" type="state" name="Disponible" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM21"/>
+<SymbolReference symbolId="SYM6"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM64"/>
+<SymbolReference symbolId="SYM83"/>
+<SymbolReference symbolId="SYM5"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM27" type="timer" name="timerAttenteServiceVoyage" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM45"/>
+<SymbolReference symbolId="SYM18"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM50"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM28" type="state" name="AttenteServiceVoyage" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM47"/>
+<SymbolReference symbolId="SYM65"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM46"/>
+<SymbolReference symbolId="SYM19"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM29" type="state" name="ServiceAppel" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM34"/>
+<SymbolReference symbolId="SYM37"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM91"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM3" type="variable" name="etageServi" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM4"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM30" type="timer" name="timerAttenteFinService" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM75"/>
+<SymbolReference symbolId="SYM29"/>
+<SymbolReference symbolId="SYM60"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM31" type="state" name="AttenteFinService" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM81"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM76"/>
+<SymbolReference symbolId="SYM32"/>
+<SymbolReference symbolId="SYM61"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM32" type="state" name="ServiceVoyage" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM78"/>
+<SymbolReference symbolId="SYM68"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM95"/>
+<SymbolReference symbolId="SYM93"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM33" type="state" name="Erreur" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYM104"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYM102"/>
+<SymbolReference symbolId="SYM99"/>
+<SymbolReference symbolId="SYM43"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM4" type="type" name="Natural" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM86"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM5" type="variable" name="etageCourant" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM4"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM6" type="type" name="Integer" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM86"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM7" type="type" name="Duration" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM126"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM8" type="variable" name="true" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM41"/>
+<SymbolReference symbolId="SYM72"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM9" type="variable" name="etage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYM66"/>
+<SymbolReference symbolId="SYM38"/>
+<SymbolReference symbolId="SYM48"/>
+<SymbolReference symbolId="SYM22"/>
+<SymbolReference symbolId="SYM84"/>
+<SymbolReference symbolId="SYM35"/>
+<SymbolReference symbolId="SYM79"/>
+<SymbolReference symbolId="SYM7"/>
+<SymbolReference symbolId="SYM4"/>
+<SymbolReference symbolId="SYM69"/>
+</UsingSymbols>
+</Item>
+</DictionaryObjects>

@@ -1,0 +1,22 @@
+Requirement id.;Description;Realizing elements;Covering testcases
+REQ_IMM_01;L'ascenseur reste immobile quand il est appelé à l'étage où il se trouve.;symbol*SDL/Spirou.rdd*SYM19<sdlState@SYM19<u'AttenteServiceVoyage'>>;
+REQ_IMM_02;L'ascenseur reste immobile quand un voyage est sollicité à destination de l'étage où il se trouve (suite à un appel).;symbol*SDL/Spirou.rdd*SYM61<sdlState@SYM61<u'AttenteFinService'>>;
+REQ_IMM_03;L'ascenseur reste immobile quand un voyage est sollicité à destination de l'étage où il se trouve (sans appel préalable).;symbol*SDL/Spirou.rdd*SYM32<sdlState@SYM32<u'AttenteFinService'>>;
+REQ_DEP_01;L'ascenseur se déplace quand il est sollicité en appel à un étage où il ne se trouve pas..;symbol*SDL/Spirou.rdd*SYM91<sdlState@SYM91<u'ServiceAppel'>>;
+REQ_DEP_02;L'ascenseur se déplace quand il est sollicité en voyage à un étage où il ne se trouve pas (suite à un appel).;symbol*SDL/Spirou.rdd*SYM95<sdlState@SYM95<u'ServiceVoyage'>>;
+REQ_DEP_03;L'ascenseur se déplace quand il est sollicité en voyage à un étage où il ne se trouve pas (sans appel préalable).;symbol*SDL/Spirou.rdd*SYM93<sdlState@SYM93<u'ServiceVoyage'>>;
+REQ_MON_01;L'ascenseur monte quand il est sollicité en appel ou en voyage pour un étage supérieur.;symbol*SDL/Cabine.rdd*SYM10<sdlSendSig@SYM10<u'monter via moteur'>>;
+REQ_DES_01;L'ascenseur descend quand il est sollicité en appel ou en voyage pour un étage inférieur.;symbol*SDL/Cabine.rdd*SYM12<sdlSendSig@SYM12<u'descendre via moteur'>>;
+REQ_PAS_01;L'ascenseur passe un étage en service appel si l'étage n'est pas la destination.;symbol*SDL/Spirou.rdd*SYM43<sdlState@SYM43<u'-'>>;
+REQ_PAS_02;L'ascenseur passe un étage en service voyage si l'étage n'est pas la destination.;symbol*SDL/Spirou.rdd*SYM77<sdlState@SYM77<u'-'>>;
+REQ_ARR_01;L'ascenseur s'arrête à son étage de destination.;symbol*SDL/Cabine.rdd*SYM14<sdlSendSig@SYM14<u'stopper via moteur'>>;
+REQ_ARR_03;L'ascenseur passe en servie voyage quand il arrive à son étage de destination suite à un appel.;symbol*SDL/Spirou.rdd*SYM46<sdlState@SYM46<u'AttenteServiceVoyage'>>;
+REQ_ARR_02;L'ascenseur passe en fin de service quand il arrive à son étage de destination suite à un voyage.;symbol*SDL/Spirou.rdd*SYM76<sdlState@SYM76<u'AttenteFinService'>>;
+REQ_TEM_01;L'ascenseur est temporisé en attente d'une demande de voyager (suite à un appel).;symbol*SDL/Spirou.rdd*SYM45<sdlInitTimer@SYM45<u'SET(NOW + tpsAttenteServiceVoyage,, timerAttenteServiceVoyage)'>>,symbol*SDL/Spirou.rdd*SYM18<sdlInitTimer@SYM18<u'SET(NOW + tpsAttenteServiceVoyage,, timerAttenteServiceVoyage)'>>;
+REQ_TEM_02;L'ascenseur est disponible à l'issu de la temporisation en attente d'une demande de voyager (suite à un appel).;symbol*SDL/Spirou.rdd*SYM64<sdlState@SYM64<u'Disponible'>>;
+REQ_TEM_03;L'ascenseur est temporisé en fin de service (suite à un voyage).;symbol*SDL/Spirou.rdd*SYM29<sdlInitTimer@SYM29<u'SET(NOW + tpsAttenteFinService,, timerAttenteFinService)'>>,symbol*SDL/Spirou.rdd*SYM60<sdlInitTimer@SYM60<u'SET(NOW + tpsAttenteFinService,, timerAttenteFinService)'>>,symbol*SDL/Spirou.rdd*SYM75<sdlInitTimer@SYM75<u'SET(NOW + tpsAttenteFinService,, timerAttenteFinService)'>>;
+REQ_TEM_04;L'ascenseur est disponible à l'issu de la temporisation de fin de service (suite à un voyage).;symbol*SDL/Spirou.rdd*SYM83<sdlState@SYM83<u'Disponible'>>;
+REQ_IGN_01;L'ascenceur ignore tout appel ou demande de voyage en service appel.;symbol*SDL/Spirou.rdd*SYM36<sdlState@SYM36<u'-'>>;
+REQ_IGN_02;L'ascenceur ignore tout appel ou demande de voyage en service voyage.;symbol*SDL/Spirou.rdd*SYM80<sdlState@SYM80<u'-'>>;
+REQ_IGN_03;L'ascenceur ignore tout appel ou demande de voyage en attente de fin de service.;symbol*SDL/Spirou.rdd*SYM85<sdlState@SYM85<u'-'>>;
+REQ_IGN_04;L'ascenceur ignore tout appel en attente de service voyage.;symbol*SDL/Spirou.rdd*SYM67<sdlState@SYM67<u'-'>>;

@@ -1,0 +1,487 @@
+module Projet_SC_Scenarios_tests_nominaux_Increment_1_v0_3
+{
+  import from Projet_SC_Scenarios_tests_import_Increment_1_v0_3 all;
+  
+  /**
+   * 0__Ap_0
+   */
+  function fct_0__Ap_0() runs on Ascenseur return boolean
+  {
+    sendAppeler(0);
+    expectNothing();
+     
+    return tc_continue;
+  }
+  
+  testcase tc_0__Ap_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_0__Ap_0();
+  }
+  
+  /**
+   * 0__Ap_2
+   */
+  function fct_0__Ap_2() runs on Ascenseur return boolean
+  {
+    sendAppeler(2);
+    expectMonter();
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0__Ap_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0__Ap_2();
+  }
+  
+  /**
+   * 0_Ap_2__Ar_1
+   */
+  function fct_0_Ap_2__Ar_1() runs on Ascenseur return boolean
+  {
+    if (fct_0__Ap_2()) 
+    {
+      expectPasseEtage();
+      sendArriver(1);
+      expectPasseEtage();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2__Ar_1() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2__Ar_1();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1__Ar_2
+   */
+  function fct_0_Ap_2_Ar_1__Ar_2() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2__Ar_1()) 
+    {
+      sendArriver(2);
+      expectStopper();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1__Ar_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1__Ar_2();
+  }
+  
+  /**
+   * 2__Ap_0
+   */
+  function fct_2__Ap_0() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2__T_5()) 
+    {
+      sendAppeler(0);
+      expectDescendre();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_2__Ap_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_2__Ap_0();
+  }
+  
+  /**
+   * 2_Ap_0__Ar_1
+   */
+  function fct_2_Ap_0__Ar_1() runs on Ascenseur return boolean
+  {
+    if (fct_2__Ap_0()) 
+    {
+      expectPasseEtage();
+      sendArriver(1);
+      expectPasseEtage();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_2_Ap_0__Ar_1() runs on Ascenseur
+  {
+    tc_init();
+    fct_2_Ap_0__Ar_1();
+  }
+  
+  /**
+   * 2_Ap_0_Ar_1__Ar_0
+   */
+  function fct_2_Ap_0_Ar_1__Ar_0() runs on Ascenseur return boolean
+  {
+    if (fct_2_Ap_0__Ar_1()) 
+    {
+      sendArriver(0);
+      expectStopper();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_2_Ap_0_Ar_1__Ar_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_2_Ap_0_Ar_1__Ar_0();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2__Vo_2
+   */
+  function fct_0_Ap_2_Ar_1_2__Vo_2() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1__Ar_2()) 
+    {
+      sendVoyager(2);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2__Vo_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2__Vo_2();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2__Vo_4
+   */
+  function fct_0_Ap_2_Ar_1_2__Vo_4() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1__Ar_2()) 
+    {
+      sendVoyager(4);
+      expectMonter();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2__Vo_4() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2__Vo_4();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_4__Ar_3
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_4__Ar_3() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2__Vo_4()) 
+    {
+      expectPasseEtage();
+      sendArriver(3);
+      expectPasseEtage();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_4__Ar_3() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_4__Ar_3();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_4_Ar_3__Ar_4
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_4_Ar_3__Ar_4() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2_Vo_4__Ar_3()) 
+    {
+      sendArriver(4);
+      expectStopper();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_4_Ar_3__Ar_4() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_4_Ar_3__Ar_4();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2__Vo_0
+   */
+  function fct_0_Ap_2_Ar_1_2__Vo_0() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1__Ar_2()) 
+    {
+      sendVoyager(0);
+      expectDescendre();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2__Vo_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2__Vo_0();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_0__Ar_1
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_0__Ar_1() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2__Vo_0()) 
+    {
+      expectPasseEtage();
+      sendArriver(1);
+      expectPasseEtage();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_0__Ar_1() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_0__Ar_1();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2_Vo_0__Ar_1()) 
+    {
+      sendArriver(0);
+      expectStopper();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0();
+  }
+  
+  /**
+   * 0__Vo_0
+   */
+  function fct_0__Vo_0() runs on Ascenseur return boolean
+  {
+    sendVoyager(0);
+    expectNothing();
+     
+    return tc_continue;
+  }
+  
+  testcase tc_0__Vo_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_0__Vo_0();
+  }
+  
+  /**
+   * 0__Vo_2
+   */
+  function fct_0__Vo_2() runs on Ascenseur return boolean
+  {
+    sendVoyager(2);
+    expectMonter();
+     
+    return tc_continue;
+  }
+  
+  testcase tc_0__Vo_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0__Vo_2();
+  }
+  
+  /**
+   * 2__Vo_0
+   */
+  function fct_2__Vo_0() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2__T_5()) 
+    {
+      sendVoyager(0);
+      expectDescendre();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_2__Vo_0() runs on Ascenseur
+  {
+    tc_init();
+    fct_2__Vo_0();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2__S_A_0_2
+   */
+  function fct_0_Ap_2_Ar_1_2__S_A_0_2() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1__Ar_2()) 
+    {
+      sendAppeler(0);
+      expectNothing();
+      
+      sendAppeler(2);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2__S_A_0_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2__S_A_0_2();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2__T_5
+   */
+  function fct_0_Ap_2_Ar_1_2__T_5() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1__Ar_2()) 
+    {
+      delay(tpsAttenteServiceVoyage);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2__T_5() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2__T_5();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__S_A_0_2_V_0_2
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__S_A_0_2_V_0_2() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0()) 
+    {
+      sendAppeler(0);
+      expectNothing();
+      
+      sendAppeler(2);
+      expectNothing();
+      
+      sendVoyager(0);
+      expectNothing();
+      
+      sendVoyager(2);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }  
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__S_A_0_2_V_0_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__S_A_0_2_V_0_2();
+  }      
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__T_5
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__T_5() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1__Ar_0()) 
+    {
+      delay(tpsAttenteFinService);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__T_5() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_0_Ar_1_0__T_5();
+  }
+  
+  /**
+   * 0_Ap_2__S_A_0_2_V_0_2
+   */
+  function fct_0_Ap_2__S_A_0_2_V_0_2() runs on Ascenseur return boolean
+  {
+    if (fct_0__Ap_2()) 
+    {
+      sendAppeler(0);
+      expectNothing();
+      
+      sendAppeler(2);
+      expectNothing();
+      
+      sendVoyager(0);
+      expectNothing();
+      
+      sendVoyager(2);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2__S_A_0_2_V_0_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2__S_A_0_2_V_0_2();
+  }
+  
+  /**
+   * 0_Ap_2_Ar_1_2_Vo_0__S_A_0_2_V_0_2
+   */
+  function fct_0_Ap_2_Ar_1_2_Vo_0__S_A_0_2_V_0_2() runs on Ascenseur return boolean
+  {
+    if (fct_0_Ap_2_Ar_1_2__Vo_0()) 
+    {
+      sendAppeler(0);
+      expectNothing();
+      
+      sendAppeler(2);
+      expectNothing();
+      
+      sendVoyager(0);
+      expectNothing();
+      
+      sendVoyager(2);
+      expectNothing();
+    }
+    
+    return tc_continue;
+  }
+  
+  testcase tc_0_Ap_2_Ar_1_2_Vo_0__S_A_0_2_V_0_2() runs on Ascenseur
+  {
+    tc_init();
+    fct_0_Ap_2_Ar_1_2_Vo_0__S_A_0_2_V_0_2();
+  }
+  
+}

@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DictionaryObjects SYSTEM "rtdsDictionaryObjects.dtd">
+
+<DictionaryObjects version="10135" language="none">
+<Item id="ITEM1" type="ttcn_module" name="Projet_SC_Scenarios_tests_import_Increment_1_v0_3" scope="current" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="0" columnNumber="7"/>
+</Item>
+<Item id="ITEM10" type="type" name="descendre" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="33" columnNumber="11"/>
+</Item>
+<Item id="ITEM100" type="variable" name="param1" parentId="ITEM99" scope="none" variableTypeName="natural" variableTypeId="ITEM11" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM101" type="ttcn_template" name="sMonter" parentId="ITEM1" scope="none" variableTypeName="monter" variableTypeId="ITEM29" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="141" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="147" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="32" columnNumber="18"/>
+</Item>
+<Item id="ITEM102" type="type" name="descendre" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="31" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="33" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="54" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="56" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="60" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="15" columnNumber="18"/>
+</Item>
+<Item id="ITEM103" type="ttcn_function" name="expectErreurTODO2" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="261" columnNumber="11"/>
+</Item>
+<Item id="ITEM104" type="ttcn_template" name="sErreurTODO2" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM103" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="265" columnNumber="24"/>
+</Item>
+<Item id="ITEM105" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM103" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="267" columnNumber="8"/>
+</Item>
+<Item id="ITEM106" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM103" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="19"/>
+</Item>
+<Item id="ITEM107" type="ttcn_function" name="expectPasseEtage" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="185" columnNumber="11"/>
+</Item>
+<Item id="ITEM108" type="timer" name="tNothing" scope="global" defined="FALSE" anchorItemId="ITEM107" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="189" columnNumber="9"/>
+</Item>
+<Item id="ITEM109" type="variable" name="tpsPassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM107" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="19"/>
+</Item>
+<Item id="ITEM11" type="ttcn_component" name="natural" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="type"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="5" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="8" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="11" columnNumber="4"/>
+</Item>
+<Item id="ITEM110" type="variable" name="tNothing" scope="global" defined="FALSE" anchorItemId="ITEM107" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="4"/>
+</Item>
+<Item id="ITEM111" type="ttcn_template" name="sErreurArriverTropTard" parentId="ITEM1" scope="none" variableTypeName="erreurArriverTropTard" variableTypeId="ITEM38" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="188" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="191" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="197" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="198" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="36" columnNumber="33"/>
+</Item>
+<Item id="ITEM112" type="ttcn_template" name="sStopper" parentId="ITEM1" scope="none" variableTypeName="stopper" variableTypeId="ITEM30" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="160" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="163" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="169" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="34" columnNumber="19"/>
+</Item>
+<Item id="ITEM113" type="ttcn_template" name="sErreurArriverInInterval" parentId="ITEM1" scope="none" variableTypeName="erreurArriverInInterval" variableTypeId="ITEM44" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="220" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="242" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="38" columnNumber="35"/>
+</Item>
+<Item id="ITEM114" type="type" name="erreurTODO2" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="35" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="41" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="61" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="64" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="69" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="70" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="23" columnNumber="18"/>
+</Item>
+<Item id="ITEM115" type="ttcn_function" name="expectNothing" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="177" columnNumber="11"/>
+</Item>
+<Item id="ITEM116" type="timer" name="tNothing" scope="global" defined="FALSE" anchorItemId="ITEM115" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="181" columnNumber="9"/>
+</Item>
+<Item id="ITEM117" type="variable" name="tNothing" scope="global" defined="FALSE" anchorItemId="ITEM115" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="179" columnNumber="4"/>
+</Item>
+<Item id="ITEM118" type="variable" name="expectTimeoutNothing" scope="global" defined="FALSE" anchorItemId="ITEM115" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="179" columnNumber="19"/>
+</Item>
+<Item id="ITEM119" type="ttcn_template" name="sVoyager" parentId="ITEM1" scope="none" variableTypeName="voyager" variableTypeId="ITEM37" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="125" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="134" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="25"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="29" columnNumber="19"/>
+</Item>
+<Item id="ITEM12" type="ttcn_port_type" name="CommandesEtages_p" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="90" columnNumber="9"/>
+</Item>
+<Item id="ITEM120" type="variable" name="etage" parentId="ITEM119" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="29" columnNumber="36"/>
+</Item>
+<Item id="ITEM121" type="ttcn_port_type" name="CapteursEtages_p" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="81" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="84" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="89" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="90" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="91" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="50" columnNumber="12"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+<TtcnPortTypeElement way="out" typeId="ITEM16"/>
+</Item>
+<Item id="ITEM122" type="ttcn_component" name="Ascenseur" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="97" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="99" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="102" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="102" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="107" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="108" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="109" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="111" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="114" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="118" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="119" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="120" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="121" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="121" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="126" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="127" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="131" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="132" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="134" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="137" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="137" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="142" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="143" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="145" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="153" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="154" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="156" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="164" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="165" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="167" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="175" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="175" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="176" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="177" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="178" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="183" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="184" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="184" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="192" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="193" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="195" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="199" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="204" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="205" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="215" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="216" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="226" columnNumber="54"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="227" columnNumber="54"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="41"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="54"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="237" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="238" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="41"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="248" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="249" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="259" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="260" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="270" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="271" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="272" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="281" columnNumber="41"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="282" columnNumber="41"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="283" columnNumber="41"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="75" columnNumber="17"/>
+</Item>
+<Item id="ITEM123" type="ttcn_component" name="natural" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM122" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="type"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="77" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="78" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="80" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="81" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="84" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="85" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="87" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="88" columnNumber="10"/>
+</Item>
+<Item id="ITEM124" type="ttcn_component" name="boolean" scope="global" defined="FALSE" anchorItemId="ITEM122" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="type"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="100" columnNumber="8"/>
+</Item>
+<Item id="ITEM125" type="variable" name="tpsAttenteFinService" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="78" columnNumber="18"/>
+</Item>
+<Item id="ITEM126" type="variable" name="etageMax" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="81" columnNumber="18"/>
+</Item>
+<Item id="ITEM127" type="ttcn_port" name="CommandesCabine" parentId="ITEM122" scope="none" instanciatedTypeId="ITEM41" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="122" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="125" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="131" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="134" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="4"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="92" columnNumber="27"/>
+</Item>
+<Item id="ITEM128" type="timer" name="tNothing" parentId="ITEM122" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="169" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="171" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="172" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="174" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="177" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="178" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="179" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="179" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="180" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="180" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="181" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="182" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="188" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="189" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="98" columnNumber="10"/>
+</Item>
+<Item id="ITEM129" type="ttcn_port" name="CommandesEtages" parentId="ITEM122" scope="none" instanciatedTypeId="ITEM12" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="118" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="120" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="126" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="129" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="4"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="90" columnNumber="27"/>
+</Item>
+<Item id="ITEM13" type="ttcn_component" name="integer" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="type"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="2" columnNumber="7"/>
+</Item>
+<Item id="ITEM130" type="timer" name="tDelay" parentId="ITEM122" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="95" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="95" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="98" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="98" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="96" columnNumber="10"/>
+</Item>
+<Item id="ITEM131" type="timer" name="tTimeout" parentId="ITEM122" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="108" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="114" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="115" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="143" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="145" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="147" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="149" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="150" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="150" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="151" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="154" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="156" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="158" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="160" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="161" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="161" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="162" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="165" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="167" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="171" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="172" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="189" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="190" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="193" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="195" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="197" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="198" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="199" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="200" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="201" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="201" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="205" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="207" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="211" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="212" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="212" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="216" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="218" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="222" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="223" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="223" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="227" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="229" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="233" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="234" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="234" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="238" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="240" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="244" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="245" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="245" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="249" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="251" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="254" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="255" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="256" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="262" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="265" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="266" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="267" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="272" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="273" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="276" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="277" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="278" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="283" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="284" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="287" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="288" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="289" columnNumber="8"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="97" columnNumber="10"/>
+</Item>
+<Item id="ITEM132" type="variable" name="tpsPassageEtage" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="177" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="180" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="187" columnNumber="19"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="83" columnNumber="18"/>
+</Item>
+<Item id="ITEM133" type="variable" name="tpsInfPassageEtage" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="85" columnNumber="18"/>
+</Item>
+<Item id="ITEM134" type="variable" name="expectTimeout" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="145" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="147" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="150" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="156" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="158" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="161" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="167" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="189" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="195" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="197" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="201" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="207" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="212" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="218" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="223" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="229" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="234" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="240" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="245" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="251" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="262" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="272" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="273" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="283" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="284" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="19"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="87" columnNumber="18"/>
+</Item>
+<Item id="ITEM135" type="variable" name="expectTimeoutNothing" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="169" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="172" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="177" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="178" columnNumber="19"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="179" columnNumber="19"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="88" columnNumber="18"/>
+</Item>
+<Item id="ITEM136" type="ttcn_port" name="Erreur" parentId="ITEM122" scope="none" instanciatedTypeId="ITEM40" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="188" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="191" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="197" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="198" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="199" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="202" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="203" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="207" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="209" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="213" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="214" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="218" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="220" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="224" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="225" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="231" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="235" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="236" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="242" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="247" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="253" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="254" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="264" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="265" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="275" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="276" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="286" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="287" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="94" columnNumber="18"/>
+</Item>
+<Item id="ITEM137" type="variable" name="tc_continue" parentId="ITEM122" scope="none" variableTypeName="boolean" variableTypeId="ITEM124" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="106" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="107" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="110" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="111" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="112" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="114" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="115" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="116" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="122" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="124" columnNumber="4"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="100" columnNumber="16"/>
+</Item>
+<Item id="ITEM138" type="variable" name="tpsAttenteServiceVoyage" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="77" columnNumber="18"/>
+</Item>
+<Item id="ITEM139" type="ttcn_port" name="CapteursEtages" parentId="ITEM122" scope="none" instanciatedTypeId="ITEM28" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="127" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="4"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="91" columnNumber="26"/>
+</Item>
+<Item id="ITEM14" type="type" name="monter" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="59" columnNumber="7"/>
+</Item>
+<Item id="ITEM140" type="variable" name="etageMin" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="80" columnNumber="18"/>
+</Item>
+<Item id="ITEM141" type="variable" name="tpsLimitePassageEtage" parentId="ITEM122" scope="none" variableTypeName="natural" variableTypeId="ITEM123" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="84" columnNumber="18"/>
+</Item>
+<Item id="ITEM142" type="ttcn_port" name="Moteur" parentId="ITEM122" scope="none" instanciatedTypeId="ITEM19" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="98" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="99" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="101" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="107" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="109" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="110" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="111" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="141" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="147" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="149" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="152" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="158" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="160" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="163" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="169" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="93" columnNumber="18"/>
+</Item>
+<Item id="ITEM143" type="ttcn_function" name="sendArriver" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="138" columnNumber="11"/>
+</Item>
+<Item id="ITEM144" type="ttcn_template" name="sArriver" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM143" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="24"/>
+</Item>
+<Item id="ITEM145" type="variable" name="etage" parentId="ITEM143" scope="global" defined="FALSE" anchorItemId="ITEM143" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="33"/>
+</Item>
+<Item id="ITEM146" type="variable" name="etage" parentId="ITEM143" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="0" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="33"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="33"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="33"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="33"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="33"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="138" columnNumber="31"/>
+</Item>
+<Item id="ITEM147" type="ttcn_port_type" name="CommandesEtages_p" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="80" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="88" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="89" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="90" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="46" columnNumber="12"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+<TtcnPortTypeElement way="out" typeId="ITEM23"/>
+</Item>
+<Item id="ITEM148" type="type" name="erreurTODO1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="34" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="36" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="40" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="60" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="63" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="68" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="69" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="22" columnNumber="18"/>
+</Item>
+<Item id="ITEM149" type="type" name="erreurCapteurIntempestif" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="39" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="68" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="21" columnNumber="18"/>
+</Item>
+<Item id="ITEM15" type="type" name="descendre" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="60" columnNumber="7"/>
+</Item>
+<Item id="ITEM150" type="type" name="erreurArriverInInterval" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="38" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="67" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="20" columnNumber="18"/>
+</Item>
+<Item id="ITEM151" type="ttcn_function" name="sendAppeler" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="128" columnNumber="11"/>
+</Item>
+<Item id="ITEM152" type="ttcn_template" name="sAppeler" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM151" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="25"/>
+</Item>
+<Item id="ITEM153" type="variable" name="etage" parentId="ITEM151" scope="global" defined="FALSE" anchorItemId="ITEM151" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="34"/>
+</Item>
+<Item id="ITEM154" type="variable" name="etage" parentId="ITEM151" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="0" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="120" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="129" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="34"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="128" columnNumber="31"/>
+</Item>
+<Item id="ITEM155" type="type" name="erreurArriverTropTard" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="33" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="34" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="36" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="59" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="61" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="65" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="18" columnNumber="18"/>
+</Item>
+<Item id="ITEM156" type="ttcn_function" name="expectErreurTODO1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="250" columnNumber="11"/>
+</Item>
+<Item id="ITEM157" type="ttcn_template" name="sErreurTODO1" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM156" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="254" columnNumber="24"/>
+</Item>
+<Item id="ITEM158" type="variable" name="tTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM156" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="256" columnNumber="8"/>
+</Item>
+<Item id="ITEM159" type="variable" name="expectTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM156" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="19"/>
+</Item>
+<Item id="ITEM16" type="type" name="arriver" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="51" columnNumber="8"/>
+</Item>
+<Item id="ITEM160" type="ttcn_function" name="tc_init" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="121" columnNumber="11"/>
+</Item>
+<Item id="ITEM161" type="variable" name="tc_continue" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM160" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="124" columnNumber="4"/>
+</Item>
+<Item id="ITEM162" type="variable" name="true" scope="global" defined="FALSE" anchorItemId="ITEM160" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="124" columnNumber="19"/>
+</Item>
+<Item id="ITEM163" type="ttcn_altstep" name="tc_fail" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM160" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="13"/>
+</Item>
+<Item id="ITEM164" type="ttcn_port_type" name="Erreur_p" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="84" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="87" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="92" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="93" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="64" columnNumber="12"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM47"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM47"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM47"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM47"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM48"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM48"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM27"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM27"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM27"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM27"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+<TtcnPortTypeElement way="in" typeId="ITEM26"/>
+<TtcnPortTypeElement way="in" typeId="ITEM24"/>
+<TtcnPortTypeElement way="in" typeId="ITEM27"/>
+<TtcnPortTypeElement way="in" typeId="ITEM46"/>
+<TtcnPortTypeElement way="in" typeId="ITEM7"/>
+<TtcnPortTypeElement way="in" typeId="ITEM20"/>
+<TtcnPortTypeElement way="in" typeId="ITEM39"/>
+<TtcnPortTypeElement way="in" typeId="ITEM18"/>
+</Item>
+<Item id="ITEM165" type="ttcn_altstep" name="tc_fail" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="13"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="116" columnNumber="13"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="121" columnNumber="13"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="122" columnNumber="13"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="13"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="109" columnNumber="10"/>
+</Item>
+<Item id="ITEM166" type="variable" name="tc_continue" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM165" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="6"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="6"/>
+</Item>
+<Item id="ITEM167" type="variable" name="false" scope="global" defined="FALSE" anchorItemId="ITEM165" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="21"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="21"/>
+</Item>
+<Item id="ITEM168" type="timer" name="tTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM165" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="115" columnNumber="7"/>
+</Item>
+<Item id="ITEM169" type="ttcn_function" name="expectErreur" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="239" columnNumber="13"/>
+</Item>
+<Item id="ITEM17" type="type" name="erreurTODO2" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="41" columnNumber="11"/>
+</Item>
+<Item id="ITEM170" type="ttcn_template" name="sErreurArriverInInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM169" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="24"/>
+</Item>
+<Item id="ITEM171" type="variable" name="tTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM169" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="245" columnNumber="8"/>
+</Item>
+<Item id="ITEM172" type="variable" name="expectTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM169" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="19"/>
+</Item>
+<Item id="ITEM173" type="type" name="appeler" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="25" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="26" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="41" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="43" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="47" columnNumber="8"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="4" columnNumber="14"/>
+</Item>
+<Item id="ITEM174" type="variable" name="param1" parentId="ITEM173" scope="none" variableTypeName="natural" variableTypeId="ITEM11" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM175" type="type" name="erreurTODO3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="36" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="38" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="42" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="62" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="65" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="70" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="71" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="24" columnNumber="18"/>
+</Item>
+<Item id="ITEM176" type="ttcn_template" name="sAppeler" parentId="ITEM1" scope="none" variableTypeName="appeler" variableTypeId="ITEM2" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="120" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="129" columnNumber="25"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="25"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="28" columnNumber="19"/>
+</Item>
+<Item id="ITEM177" type="variable" name="etage" parentId="ITEM176" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="28" columnNumber="36"/>
+</Item>
+<Item id="ITEM178" type="ttcn_template" name="sErreurTODOetc" parentId="ITEM1" scope="none" variableTypeName="erreurTODOetc" variableTypeId="ITEM4" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="247" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="286" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="287" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="43" columnNumber="25"/>
+</Item>
+<Item id="ITEM179" type="ttcn_function" name="expectErreurTODO3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="272" columnNumber="11"/>
+</Item>
+<Item id="ITEM18" type="type" name="erreurTODOetc" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="72" columnNumber="7"/>
+</Item>
+<Item id="ITEM180" type="variable" name="tTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM179" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="278" columnNumber="8"/>
+</Item>
+<Item id="ITEM181" type="ttcn_template" name="sErreurTODO3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM179" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="276" columnNumber="24"/>
+</Item>
+<Item id="ITEM182" type="variable" name="expectTimeout" parentId="ITEM122" scope="global" defined="FALSE" anchorItemId="ITEM179" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="19"/>
+</Item>
+<Item id="ITEM183" type="ttcn_template" name="sErreurCapteurIntempestif" parentId="ITEM1" scope="none" variableTypeName="erreurCapteurIntempestif" variableTypeId="ITEM6" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="231" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="39" columnNumber="36"/>
+</Item>
+<Item id="ITEM184" type="ttcn_template" name="sArriver" parentId="ITEM1" scope="none" variableTypeName="arriver" variableTypeId="ITEM5" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="30" columnNumber="19"/>
+</Item>
+<Item id="ITEM185" type="variable" name="etage" parentId="ITEM184" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="30" columnNumber="36"/>
+</Item>
+<Item id="ITEM186" type="type" name="stopper" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="31" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="32" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="34" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="55" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="57" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="61" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="16" columnNumber="18"/>
+</Item>
+<Item id="ITEM187" type="ttcn_port_type" name="Moteur_p" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="86" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="91" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="92" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="93" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="58" columnNumber="12"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+<TtcnPortTypeElement way="in" typeId="ITEM14"/>
+<TtcnPortTypeElement way="in" typeId="ITEM15"/>
+<TtcnPortTypeElement way="in" typeId="ITEM42"/>
+</Item>
+<Item id="ITEM188" type="ttcn_template" name="sErreurArriverInterval" parentId="ITEM1" scope="none" variableTypeName="erreurArriverInterval" variableTypeId="ITEM8" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="203" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="209" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="37" columnNumber="33"/>
+</Item>
+<Item id="ITEM189" type="type" name="monter" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="32" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="53" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="55" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="59" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="14" columnNumber="18"/>
+</Item>
+<Item id="ITEM19" type="ttcn_port_type" name="Moteur_p" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="93" columnNumber="9"/>
+</Item>
+<Item id="ITEM190" type="ttcn_template" name="sDescendre" parentId="ITEM1" scope="none" variableTypeName="descendre" variableTypeId="ITEM10" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="149" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="152" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="158" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="33" columnNumber="21"/>
+</Item>
+<Item id="ITEM2" type="type" name="appeler" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="11"/>
+</Item>
+<Item id="ITEM20" type="type" name="erreurTODO2" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="70" columnNumber="7"/>
+</Item>
+<Item id="ITEM21" type="type" name="natural" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="23"/>
+</Item>
+<Item id="ITEM22" type="type" name="erreurTODO1" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="40" columnNumber="11"/>
+</Item>
+<Item id="ITEM23" type="type" name="appeler" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="47" columnNumber="8"/>
+</Item>
+<Item id="ITEM24" type="type" name="erreurArriverInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="66" columnNumber="7"/>
+</Item>
+<Item id="ITEM25" type="variable" name="etage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="58"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="58"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="58"/>
+</Item>
+<Item id="ITEM26" type="type" name="erreurArriverTropTard" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="65" columnNumber="7"/>
+</Item>
+<Item id="ITEM27" type="type" name="erreurArriverInInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="67" columnNumber="7"/>
+</Item>
+<Item id="ITEM28" type="ttcn_port_type" name="CapteursEtages_p" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="91" columnNumber="9"/>
+</Item>
+<Item id="ITEM29" type="type" name="monter" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="32" columnNumber="11"/>
+</Item>
+<Item id="ITEM3" type="type" name="erreurTODO3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="42" columnNumber="11"/>
+</Item>
+<Item id="ITEM30" type="type" name="stopper" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="34" columnNumber="11"/>
+</Item>
+<Item id="ITEM31" type="ttcn_component" name="Ascenseur" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="109" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="121" columnNumber="29"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="46"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="177" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="49"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="54"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="272" columnNumber="39"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="283" columnNumber="41"/>
+</Item>
+<Item id="ITEM32" type="ttcn_port" name="CommandesCabine" parentId="ITEM31" scope="global" defined="FALSE" createInRealizing="FALSE" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="122" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="125" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="131" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="134" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="4"/>
+</Item>
+<Item id="ITEM33" type="ttcn_port" name="CommandesEtages" parentId="ITEM31" scope="global" defined="FALSE" createInRealizing="FALSE" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="117" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="118" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="120" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="126" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="129" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="4"/>
+</Item>
+<Item id="ITEM34" type="ttcn_port" name="Erreur" parentId="ITEM31" scope="global" defined="FALSE" createInRealizing="FALSE" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="185" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="186" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="188" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="191" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="194" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="197" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="198" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="199" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="202" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="203" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="206" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="207" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="209" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="213" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="214" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="217" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="218" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="220" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="224" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="225" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="228" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="231" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="235" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="236" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="239" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="241" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="242" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="243" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="247" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="250" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="253" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="254" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="261" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="264" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="265" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="275" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="276" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="286" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="287" columnNumber="9"/>
+</Item>
+<Item id="ITEM35" type="ttcn_port" name="CapteursEtages" parentId="ITEM31" scope="global" defined="FALSE" createInRealizing="FALSE" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="127" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="130" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="139" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="140" columnNumber="4"/>
+</Item>
+<Item id="ITEM36" type="ttcn_port" name="Moteur" parentId="ITEM31" scope="global" defined="FALSE" createInRealizing="FALSE" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="98" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="99" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="101" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="107" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="109" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="110" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="111" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="141" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="144" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="147" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="149" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="152" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="155" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="158" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="160" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="163" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="166" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="169" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="9"/>
+</Item>
+<Item id="ITEM37" type="type" name="voyager" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="11"/>
+</Item>
+<Item id="ITEM38" type="type" name="erreurArriverTropTard" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="36" columnNumber="11"/>
+</Item>
+<Item id="ITEM39" type="type" name="erreurTODO3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="71" columnNumber="7"/>
+</Item>
+<Item id="ITEM4" type="type" name="erreurTODOetc" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="43" columnNumber="11"/>
+</Item>
+<Item id="ITEM40" type="ttcn_port_type" name="Erreur_p" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="9"/>
+</Item>
+<Item id="ITEM41" type="ttcn_port_type" name="CommandesCabine_p" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="92" columnNumber="9"/>
+</Item>
+<Item id="ITEM42" type="type" name="stopper" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="61" columnNumber="7"/>
+</Item>
+<Item id="ITEM43" type="variable" name="infinity" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="2" columnNumber="29"/>
+</Item>
+<Item id="ITEM44" type="type" name="erreurArriverInInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="38" columnNumber="11"/>
+</Item>
+<Item id="ITEM45" type="variable" name="param1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="48"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="48"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="48"/>
+</Item>
+<Item id="ITEM46" type="type" name="erreurCapteurIntempestif" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="68" columnNumber="7"/>
+</Item>
+<Item id="ITEM47" type="type" name="rreurArriverTropTard" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM48" type="type" name="erreurInterval" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM49" type="ttcn_function" name="expectStopper" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="166" columnNumber="11"/>
+</Item>
+<Item id="ITEM5" type="type" name="arriver" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="11"/>
+</Item>
+<Item id="ITEM50" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM49" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="172" columnNumber="8"/>
+</Item>
+<Item id="ITEM51" type="ttcn_template" name="sStopper" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM49" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="170" columnNumber="24"/>
+</Item>
+<Item id="ITEM52" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM49" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="168" columnNumber="19"/>
+</Item>
+<Item id="ITEM53" type="ttcn_function" name="expectErreurArriverTropTard" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="194" columnNumber="11"/>
+</Item>
+<Item id="ITEM54" type="ttcn_template" name="sErreurArriverTropTard" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM53" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="198" columnNumber="24"/>
+</Item>
+<Item id="ITEM55" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM53" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="200" columnNumber="8"/>
+</Item>
+<Item id="ITEM56" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM53" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="196" columnNumber="19"/>
+</Item>
+<Item id="ITEM57" type="ttcn_template" name="sErreurTODO2" parentId="ITEM1" scope="none" variableTypeName="erreurTODO2" variableTypeId="ITEM17" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="225" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="263" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="264" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="265" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="41" columnNumber="23"/>
+</Item>
+<Item id="ITEM58" type="ttcn_template" name="sErreurTODO3" parentId="ITEM1" scope="none" variableTypeName="erreurTODO3" variableTypeId="ITEM3" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="236" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="274" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="275" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="276" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="42" columnNumber="23"/>
+</Item>
+<Item id="ITEM59" type="ttcn_template" name="sErreurTODO1" parentId="ITEM1" scope="none" variableTypeName="erreurTODO1" variableTypeId="ITEM22" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="199" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="214" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="252" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="253" columnNumber="24"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="254" columnNumber="24"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="40" columnNumber="23"/>
+</Item>
+<Item id="ITEM6" type="type" name="erreurCapteurIntempestif" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="39" columnNumber="11"/>
+</Item>
+<Item id="ITEM60" type="ttcn_port_type" name="CommandesCabine_p" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="82" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="85" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="90" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="91" columnNumber="9"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="92" columnNumber="9"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="54" columnNumber="12"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+<TtcnPortTypeElement way="out" typeId="ITEM9"/>
+</Item>
+<Item id="ITEM61" type="ttcn_function" name="sendVoyager" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="133" columnNumber="11"/>
+</Item>
+<Item id="ITEM62" type="variable" name="etage" parentId="ITEM61" scope="global" defined="FALSE" anchorItemId="ITEM61" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="34"/>
+</Item>
+<Item id="ITEM63" type="ttcn_template" name="sVoyager" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM61" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="25"/>
+</Item>
+<Item id="ITEM64" type="variable" name="etage" parentId="ITEM61" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="0" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="125" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="134" columnNumber="34"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="135" columnNumber="34"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="133" columnNumber="31"/>
+</Item>
+<Item id="ITEM65" type="ttcn_function" name="expectDescendre" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="155" columnNumber="11"/>
+</Item>
+<Item id="ITEM66" type="ttcn_template" name="sDescendre" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM65" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="159" columnNumber="24"/>
+</Item>
+<Item id="ITEM67" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM65" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="161" columnNumber="8"/>
+</Item>
+<Item id="ITEM68" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM65" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="157" columnNumber="19"/>
+</Item>
+<Item id="ITEM69" type="ttcn_function" name="expectErreurCapteurIntempestif" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="228" columnNumber="13"/>
+</Item>
+<Item id="ITEM7" type="type" name="erreurTODO1" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="69" columnNumber="7"/>
+</Item>
+<Item id="ITEM70" type="ttcn_template" name="sErreurCapteurIntempestif" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM69" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="232" columnNumber="24"/>
+</Item>
+<Item id="ITEM71" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM69" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="234" columnNumber="8"/>
+</Item>
+<Item id="ITEM72" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM69" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="230" columnNumber="19"/>
+</Item>
+<Item id="ITEM73" type="type" name="voyager" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="26" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="27" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="49" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="51" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="55" columnNumber="8"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="7" columnNumber="14"/>
+</Item>
+<Item id="ITEM74" type="variable" name="param1" parentId="ITEM73" scope="none" variableTypeName="natural" variableTypeId="ITEM11" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM75" type="type" name="erreurArriverInterval" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="35" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="66" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="19" columnNumber="18"/>
+</Item>
+<Item id="ITEM76" type="ttcn_function" name="delay" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="104" columnNumber="11"/>
+</Item>
+<Item id="ITEM77" type="variable" name="time" parentId="ITEM76" scope="global" defined="FALSE" anchorItemId="ITEM76" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="17"/>
+</Item>
+<Item id="ITEM78" type="variable" name="tDelay" scope="global" defined="FALSE" anchorItemId="ITEM76" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="4"/>
+</Item>
+<Item id="ITEM79" type="timer" name="tDelay" scope="global" defined="FALSE" anchorItemId="ITEM76" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="24"/>
+</Item>
+<Item id="ITEM8" type="type" name="erreurArriverInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_signature"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="11"/>
+</Item>
+<Item id="ITEM80" type="variable" name="time" parentId="ITEM76" scope="none" variableTypeName="natural" variableTypeId="ITEM21" formalParameterOrder="0" isFormalParam="TRUE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="95" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="98" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="17"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="104" columnNumber="25"/>
+</Item>
+<Item id="ITEM81" type="ttcn_function" name="expectMonter" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="144" columnNumber="11"/>
+</Item>
+<Item id="ITEM82" type="ttcn_template" name="sMonter" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM81" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="148" columnNumber="24"/>
+</Item>
+<Item id="ITEM83" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM81" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="150" columnNumber="8"/>
+</Item>
+<Item id="ITEM84" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM81" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="146" columnNumber="19"/>
+</Item>
+<Item id="ITEM85" type="ttcn_function" name="expectErreurTODOetc" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="283" columnNumber="11"/>
+</Item>
+<Item id="ITEM86" type="ttcn_template" name="sErreurTODOetc" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM85" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="287" columnNumber="24"/>
+</Item>
+<Item id="ITEM87" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM85" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="289" columnNumber="8"/>
+</Item>
+<Item id="ITEM88" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM85" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="285" columnNumber="19"/>
+</Item>
+<Item id="ITEM89" type="ttcn_function" name="expectErreurArriverInInterval" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="217" columnNumber="13"/>
+</Item>
+<Item id="ITEM9" type="type" name="voyager" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="55" columnNumber="8"/>
+</Item>
+<Item id="ITEM90" type="ttcn_template" name="sErreurArriverInInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM89" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="221" columnNumber="24"/>
+</Item>
+<Item id="ITEM91" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM89" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="223" columnNumber="8"/>
+</Item>
+<Item id="ITEM92" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM89" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="219" columnNumber="19"/>
+</Item>
+<Item id="ITEM93" type="type" name="natural" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="TRUE" syntypeBaseTypeId="ITEM13">
+<SourceFilePosition isDefine="FALSE" lineNumber="5" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="8" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="11" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="25" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="26" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="27" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="28"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="68" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="69" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="71" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="72" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="74" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="75" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="76" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="77" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="78" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="79" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="80" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="81" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="82" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="84" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="85" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="86" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="87" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="88" columnNumber="10"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="97" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="102" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="103" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="17"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="118" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="121" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="123" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="126" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="127" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="128" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="131" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="132" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="133" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="136" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="137" columnNumber="23"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="138" columnNumber="23"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="2" columnNumber="15"/>
+</Item>
+<Item id="ITEM94" type="ttcn_function" name="expectErreurArriverInterval" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM31">
+<SourceFilePosition isDefine="TRUE" lineNumber="206" columnNumber="11"/>
+</Item>
+<Item id="ITEM95" type="ttcn_template" name="sErreurArriverInterval" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM94" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="210" columnNumber="24"/>
+</Item>
+<Item id="ITEM96" type="variable" name="tTimeout" scope="global" defined="FALSE" anchorItemId="ITEM94" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_port"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="4"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="212" columnNumber="8"/>
+</Item>
+<Item id="ITEM97" type="variable" name="expectTimeout" scope="global" defined="FALSE" anchorItemId="ITEM94" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="208" columnNumber="19"/>
+</Item>
+<Item id="ITEM98" type="type" name="erreurTODOetc" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="39" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="43" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="63" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="66" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="71" columnNumber="7"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="72" columnNumber="7"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="25" columnNumber="18"/>
+</Item>
+<Item id="ITEM99" type="type" name="arriver" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="27" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="28" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="11"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="45" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="47" columnNumber="8"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="51" columnNumber="8"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="10" columnNumber="14"/>
+</Item>
+</DictionaryObjects>

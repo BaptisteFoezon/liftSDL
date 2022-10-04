@@ -1,0 +1,117 @@
+module Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3
+{
+  import from Projet_SC_Scenarios_tests_import_Increment_1_v0_3 all;
+  import from Projet_SC_Scenarios_tests_nominaux_Increment_1_v0_3 all;
+ 
+ /** 
+ * 0_Ap_2_noAr_1
+ */
+ 
+ function fct_0_Ap_2_noAr_1() runs on Ascenseur return boolean
+ {
+  if(fct_0__Ap_2()){
+    delay(tpsLimitePassageEtage);
+    expectErreurArriverTropTard();
+  }
+  return tc_continue;
+ }
+ testcase tc_0_Ap_2_noAr_1() runs on Ascenseur{
+  tc_init();
+  fct_0_Ap_2_noAr_1();
+ }
+ 
+ 
+ /** 
+ * 0_Vo_2_noAr_1
+ */
+ 
+ function fct_0_Vo_2_noAr_1() runs on Ascenseur return boolean
+ {
+  if(fct_0__Vo_2()){
+    delay(tpsLimitePassageEtage);
+    expectErreurArriverTropTard();
+  }
+  return tc_continue;
+ }
+ testcase tc_0_Vo_2_noAr_1() runs on Ascenseur{
+  tc_init();
+  fct_0_Vo_2_noAr_1();
+ }
+ 
+  
+  /** 
+ * 0_Ap_2_Ar_6
+ */
+ 
+ function fct_0_Ap_2_Ar_6() runs on Ascenseur return boolean
+ {
+  if(fct_0__Ap_2()){
+    expectPasseEtage();
+    sendArriver(6);
+    expectErreurArriverInterval();
+  }
+  return tc_continue;
+ }
+ testcase tc_0_Ap_2_Ar_6() runs on Ascenseur{
+  tc_init();
+  fct_0_Ap_2_Ar_6();
+ }
+ 
+   /** 
+ * 0_Ap_2_Ar_3
+ */
+ 
+ function fct_0_Ap_2_Ar_3() runs on Ascenseur return boolean
+ {
+  if(fct_2__Ap_0()){
+    expectPasseEtage();
+    sendArriver(3);
+    expectErreurArriverInInterval();
+  }
+  return tc_continue;
+ }
+ testcase tc_0_Ap_2_Ar_3() runs on Ascenseur{
+  tc_init();
+  fct_0_Ap_2_Ar_3();
+ }
+   
+
+
+   /** 
+ * 0_Ap_2_ArIntemp_3
+ */
+ 
+ function fct_0_Ap_2_ArIntemp_3() runs on Ascenseur return boolean
+ {
+  if(fct_0__Ap_2()){
+    delay(tpsInfPassageEtage);
+    sendArriver(3);
+    expectErreurCapteurIntempestif();
+  }
+  return tc_continue;
+ }
+ testcase tc_0_Ap_2_ArIntemp_3() runs on Ascenseur{
+  tc_init();
+  fct_0_Ap_2_ArIntemp_3();
+ }
+ 
+ 
+    /** 
+ * 2_Ap_0_Ar_3
+ */
+ 
+ function fct_2_Ap_0_Ar_3() runs on Ascenseur return boolean
+ {
+  if(fct_2__Ap_0()){
+    delay(tpsPassageEtage);
+    sendArriver(3);
+    expectErreurArriverInInterval();
+  }
+  return tc_continue;
+ }
+ testcase tc_2_Ap_0_Ar_3() runs on Ascenseur{
+  tc_init();
+  fct_2_Ap_0_Ar_3();
+ }
+   
+}

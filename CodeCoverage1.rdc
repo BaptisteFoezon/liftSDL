@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CodeCoverageResults SYSTEM "rtdsCodeCoverage.dtd">
+
+<CodeCoverageResults>
+<CodeCoverageResultNode type="sys" name="Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.ttcn3" minHit="0" maxHit="5">
+<CodeCoverageResultNode type="pcs" name="Spirou" minHit="0" maxHit="5" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="state" name="Disponible" minHit="0" maxHit="4" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="appeler(etage)" minHit="0" maxHit="4" diagramFileName="SDL/Spirou.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" appeler(etage)" minHit="4" maxHit="4" diagramFileName="SDL/Spirou.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" CALL deplacerCabine" minHit="4" maxHit="4" diagramFileName="SDL/Spirou.rdd" symbolId="SYM12">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" = 0" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM15"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsAttenteServiceVoyage, timerAttenteServiceVoyage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM18"/>
+<CodeCoverageResultNode type="state" name=" AttenteServiceVoyage" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM19"/>
+<CodeCoverageResultNode type="answer" name=" else" minHit="4" maxHit="4" diagramFileName="SDL/Spirou.rdd" symbolId="SYM90">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" ServiceAppel" minHit="4" maxHit="4" diagramFileName="SDL/Spirou.rdd" symbolId="SYM91">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="voyager(etage)" minHit="0" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM22">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" voyager(etage)" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM22">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" CALL deplacerCabine" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM24">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" = 0" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM27"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsAttenteFinService, timerAttenteFinService)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM29"/>
+<CodeCoverageResultNode type="state" name=" AttenteFinService" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM32"/>
+<CodeCoverageResultNode type="answer" name=" else" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM92">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" ServiceVoyage" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM93">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="AttenteFinService" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="timerAttenteFinS..." minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM82">
+<CodeCoverageResultNode type="msgin" name=" timerAttenteFinService" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM82"/>
+<CodeCoverageResultNode type="state" name=" Disponible" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM83"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="appeler(etage), ..." minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM84">
+<CodeCoverageResultNode type="msgin" name=" appeler(etage), voyager(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM84"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM85"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="ServiceVoyage" minHit="0" maxHit="1" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="appeler(etage), ..." minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM79">
+<CodeCoverageResultNode type="msgin" name=" appeler(etage), voyager(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM79"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM80"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="arriver(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM69">
+<CodeCoverageResultNode type="msgin" name=" arriver(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM69"/>
+<CodeCoverageResultNode type="dec" name=" CALL arreterCabine" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM71"/>
+<CodeCoverageResultNode type="answer" name=" true" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM72"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsAttenteFinService, timerAttenteFinService)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM75"/>
+<CodeCoverageResultNode type="state" name=" AttenteFinService" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM76"/>
+<CodeCoverageResultNode type="answer" name=" false" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM73"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM77"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="timerPassageEtag..." minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM100">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" timerPassageEtage" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM100">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" erreurArriverTropTard" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM101">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" Erreur" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM102">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="Erreur" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="*" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM105">
+<CodeCoverageResultNode type="msgin" name=" *" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM105"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM106"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Spirou.rdd" symbolId="SYM3">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Spirou.rdd" symbolId="SYM3">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" etage := 0; sens := 0; etageCourant := 0; e..." minHit="5" maxHit="5" diagramFileName="SDL/Spirou.rdd" symbolId="SYM4">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" Disponible" minHit="5" maxHit="5" diagramFileName="SDL/Spirou.rdd" symbolId="SYM5">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="ServiceAppel" minHit="0" maxHit="3" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="appeler(etage), ..." minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM35">
+<CodeCoverageResultNode type="msgin" name=" appeler(etage), voyager(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM35"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM36"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="arriver(etage)" minHit="0" maxHit="3" diagramFileName="SDL/Spirou.rdd" symbolId="SYM38">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" arriver(etage)" minHit="3" maxHit="3" diagramFileName="SDL/Spirou.rdd" symbolId="SYM38">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" CALL arreterCabine" minHit="3" maxHit="3" diagramFileName="SDL/Spirou.rdd" symbolId="SYM40">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" true" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM41"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsAttenteServiceVoyage, timerAttenteServiceVoyage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM45"/>
+<CodeCoverageResultNode type="state" name=" AttenteServiceVoyage" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM46"/>
+<CodeCoverageResultNode type="answer" name=" false" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM42"/>
+<CodeCoverageResultNode type="state" name=" Erreur" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM43"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="timerPassageEtag..." minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM97">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" timerPassageEtage" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM97">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" erreurArriverTropTard" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM98">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" Erreur" minHit="1" maxHit="1" diagramFileName="SDL/Spirou.rdd" symbolId="SYM99">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="AttenteServiceVoyage" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd">
+<CodeCoverageResultNode type="msgin" name="timerAttenteServ..." minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM63">
+<CodeCoverageResultNode type="msgin" name=" timerAttenteServiceVoyage" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM63"/>
+<CodeCoverageResultNode type="state" name=" Disponible" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM64"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="appeler(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM66">
+<CodeCoverageResultNode type="msgin" name=" appeler(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM66"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM67"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="voyager(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM48">
+<CodeCoverageResultNode type="msgin" name=" voyager(etage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM48"/>
+<CodeCoverageResultNode type="resettmr" name=" RESET(timerAttenteServiceVoyage)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM50"/>
+<CodeCoverageResultNode type="dec" name=" CALL deplacerCabine" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM52"/>
+<CodeCoverageResultNode type="answer" name=" = 0" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM55"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsAttenteFinService, timerAttenteFinService)" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM60"/>
+<CodeCoverageResultNode type="state" name=" AttenteFinService" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM61"/>
+<CodeCoverageResultNode type="answer" name=" else" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM94"/>
+<CodeCoverageResultNode type="state" name=" ServiceVoyage" minHit="0" maxHit="0" diagramFileName="SDL/Spirou.rdd" symbolId="SYM95"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcs" name="Etages" minHit="0" maxHit="5" diagramFileName="SDL/Etages.rdd">
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Etages.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Etages.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" etage := 0;" minHit="5" maxHit="5" diagramFileName="SDL/Etages.rdd" symbolId="SYM3">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" EnService" minHit="5" maxHit="5" diagramFileName="SDL/Etages.rdd" symbolId="SYM4">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="EnService" minHit="3" maxHit="4" diagramFileName="SDL/Etages.rdd">
+<CodeCoverageResultNode type="msgin" name="arriver(etage)" minHit="3" maxHit="3" diagramFileName="SDL/Etages.rdd" symbolId="SYM8">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" arriver(etage)" minHit="3" maxHit="3" diagramFileName="SDL/Etages.rdd" symbolId="SYM8">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" arriver(etage) to Spirou" minHit="3" maxHit="3" diagramFileName="SDL/Etages.rdd" symbolId="SYM27">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" -" minHit="3" maxHit="3" diagramFileName="SDL/Etages.rdd" symbolId="SYM28">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="appeler(etage)" minHit="4" maxHit="4" diagramFileName="SDL/Etages.rdd" symbolId="SYM6">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" appeler(etage)" minHit="4" maxHit="4" diagramFileName="SDL/Etages.rdd" symbolId="SYM6">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" appeler(etage) to Spirou" minHit="4" maxHit="4" diagramFileName="SDL/Etages.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" -" minHit="4" maxHit="4" diagramFileName="SDL/Etages.rdd" symbolId="SYM11">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="Erreur" minHit="0" maxHit="0" diagramFileName="SDL/Etages.rdd">
+<CodeCoverageResultNode type="msgin" name="*" minHit="0" maxHit="0" diagramFileName="SDL/Etages.rdd" symbolId="SYM24">
+<CodeCoverageResultNode type="msgin" name=" *" minHit="0" maxHit="0" diagramFileName="SDL/Etages.rdd" symbolId="SYM24"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Etages.rdd" symbolId="SYM25"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcd" name="verification" minHit="0" maxHit="3" diagramFileName="verification.rdd">
+<CodeCoverageResultNode type="pcdstart" name="" minHit="0" maxHit="3" diagramFileName="verification.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="pcdstart" name="" minHit="3" maxHit="3" diagramFileName="verification.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" timeDiff := NOW - tdepart" minHit="3" maxHit="3" diagramFileName="verification.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" timeDiff" minHit="3" maxHit="3" diagramFileName="verification.rdd" symbolId="SYM4">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" &lt;tpsPassageEtage" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM5">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" erreurCapteurIntempestif" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM31">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcdrtn" name=" false" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM36">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" else" minHit="2" maxHit="2" diagramFileName="verification.rdd" symbolId="SYM6">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" etage" minHit="2" maxHit="2" diagramFileName="verification.rdd" symbolId="SYM19">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" etageMin : etageMax" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM20">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" etage" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM22">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" etageCourant + sens" minHit="0" maxHit="0" diagramFileName="verification.rdd" symbolId="SYM23"/>
+<CodeCoverageResultNode type="answer" name=" else" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM24">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" erreurArriverInInterval" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM25">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcdrtn" name=" false" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM34">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" else" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM21">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" erreurArriverInterval" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM27">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcdrtn" name=" false" minHit="1" maxHit="1" diagramFileName="verification.rdd" symbolId="SYM35">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcdrtn" name=" true" minHit="0" maxHit="0" diagramFileName="verification.rdd" symbolId="SYM8"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcd" name="deplacerCabine" minHit="0" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd">
+<CodeCoverageResultNode type="pcdstart" name="" minHit="0" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="pcdstart" name="" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" etageServi := etage;" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM3">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" etageServi - etageCourant" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM4">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" &gt; 0" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM5">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" sens := 1;" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM8">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" monter to Cabine" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM12">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" &lt; 0" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM6"/>
+<CodeCoverageResultNode type="taskblk" name=" sens := -1;" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM10"/>
+<CodeCoverageResultNode type="msgout" name=" descendre to Cabine" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM13"/>
+<CodeCoverageResultNode type="answer" name=" else" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM7"/>
+<CodeCoverageResultNode type="taskblk" name=" sens := 0;" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM11"/>
+<CodeCoverageResultNode type="pcdrtn" name=" sens" minHit="0" maxHit="0" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM15"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsLimitePassageEtage, timerPassageEtage)" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM16">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" tdepart := NOW" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM18">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcdrtn" name=" sens" minHit="5" maxHit="5" diagramFileName="SDL/deplacerCabine.rdd" symbolId="SYM14">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcs" name="Cabine" minHit="0" maxHit="5" diagramFileName="SDL/Cabine.rdd">
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="start" name="" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" etage := 0;" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM3">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" EnService" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM5">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name="EnService" minHit="0" maxHit="5" diagramFileName="SDL/Cabine.rdd">
+<CodeCoverageResultNode type="msgin" name="descendre" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM11">
+<CodeCoverageResultNode type="msgin" name=" descendre" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM11"/>
+<CodeCoverageResultNode type="msgout" name=" descendre via moteur" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM12"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM21"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="stopper" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM13">
+<CodeCoverageResultNode type="msgin" name=" stopper" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM13"/>
+<CodeCoverageResultNode type="msgout" name=" stopper via moteur" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM14"/>
+<CodeCoverageResultNode type="state" name=" -" minHit="0" maxHit="0" diagramFileName="SDL/Cabine.rdd" symbolId="SYM22"/>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="monter" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM9">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" monter" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM9">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" monter via moteur" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM10">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" -" minHit="5" maxHit="5" diagramFileName="SDL/Cabine.rdd" symbolId="SYM19">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_noAr_1</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgin" name="voyager(etage)" minHit="1" maxHit="1" diagramFileName="SDL/Cabine.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+<CodeCoverageResultNode type="msgin" name=" voyager(etage)" minHit="1" maxHit="1" diagramFileName="SDL/Cabine.rdd" symbolId="SYM7">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="msgout" name=" voyager(etage) to Spirou" minHit="1" maxHit="1" diagramFileName="SDL/Cabine.rdd" symbolId="SYM8">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" -" minHit="1" maxHit="1" diagramFileName="SDL/Cabine.rdd" symbolId="SYM15">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Vo_2_noAr_1</CoveringTestcase>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="pcd" name="arreterCabine" minHit="0" maxHit="3" diagramFileName="SDL/arreterCabine.rdd">
+<CodeCoverageResultNode type="pcdstart" name="" minHit="0" maxHit="3" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+<CodeCoverageResultNode type="pcdstart" name="" minHit="3" maxHit="3" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM2">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="dec" name=" CALL verification" minHit="3" maxHit="3" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM20">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="answer" name=" true" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM21"/>
+<CodeCoverageResultNode type="answer" name=" false" minHit="3" maxHit="3" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM22">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="state" name=" Erreur" minHit="3" maxHit="3" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM23">
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_ArIntemp_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_3</CoveringTestcase>
+<CoveringTestcase>~::Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3.tc_0_Ap_2_Ar_6</CoveringTestcase>
+</CodeCoverageResultNode>
+<CodeCoverageResultNode type="taskblk" name=" etageCourant := etage;" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM3"/>
+<CodeCoverageResultNode type="resettmr" name=" RESET(timerPassageEtage)" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM12"/>
+<CodeCoverageResultNode type="dec" name=" etageCourant = etageServi" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM4"/>
+<CodeCoverageResultNode type="answer" name=" true" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM5"/>
+<CodeCoverageResultNode type="msgout" name=" stopper to Cabine" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM8"/>
+<CodeCoverageResultNode type="pcdrtn" name=" true" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM10"/>
+<CodeCoverageResultNode type="answer" name=" false" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM6"/>
+<CodeCoverageResultNode type="inittmr" name=" SET(NOW + tpsLimitePassageEtage, timerPassageEtage)" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM11"/>
+<CodeCoverageResultNode type="taskblk" name=" tdepart := NOW" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM24"/>
+<CodeCoverageResultNode type="pcdrtn" name=" false" minHit="0" maxHit="0" diagramFileName="SDL/arreterCabine.rdd" symbolId="SYM9"/>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResultNode>
+</CodeCoverageResults>

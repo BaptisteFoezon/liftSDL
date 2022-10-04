@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DictionaryObjects SYSTEM "rtdsDictionaryObjects.dtd">
+
+<DictionaryObjects version="10135" language="none">
+<Item id="ITEM1" type="ttcn_module" name="Projet_SC_Scenarios_tests_sdf_detections_Increment_1_v0_3" scope="current" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="TRUE" lineNumber="0" columnNumber="7"/>
+<TtcnImportedModule moduleId="ITEM4"/>
+<TtcnImportedModule moduleId="ITEM5"/>
+</Item>
+<Item id="ITEM10" type="ttcn_function" name="fct_0__Vo_2" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="29" columnNumber="5"/>
+</Item>
+<Item id="ITEM11" type="variable" name="tpsLimitePassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="10"/>
+</Item>
+<Item id="ITEM12" type="ttcn_function" name="expectErreurArriverTropTard" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="31" columnNumber="4"/>
+</Item>
+<Item id="ITEM13" type="variable" name="RTDS_return" parentId="ITEM6" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM14" type="ttcn_test_case" name="tc_0_Ap_2_Ar_6" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="54" columnNumber="10"/>
+</Item>
+<Item id="ITEM15" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM14" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="55" columnNumber="2"/>
+</Item>
+<Item id="ITEM16" type="ttcn_function" name="fct_0_Ap_2_Ar_6" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM14" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="56" columnNumber="2"/>
+</Item>
+<Item id="ITEM17" type="ttcn_test_case" name="tc_0_Ap_2_noAr_1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="17" columnNumber="10"/>
+</Item>
+<Item id="ITEM18" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM17" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="18" columnNumber="2"/>
+</Item>
+<Item id="ITEM19" type="ttcn_function" name="fct_0_Ap_2_noAr_1" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM17" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="19" columnNumber="2"/>
+</Item>
+<Item id="ITEM2" type="type" name="boolean" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="9" columnNumber="55"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="27" columnNumber="55"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="45" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="63" columnNumber="53"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="59"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="102" columnNumber="53"/>
+</Item>
+<Item id="ITEM20" type="ttcn_test_case" name="tc_0_Ap_2_ArIntemp_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="92" columnNumber="10"/>
+</Item>
+<Item id="ITEM21" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM20" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="93" columnNumber="2"/>
+</Item>
+<Item id="ITEM22" type="ttcn_function" name="fct_0_Ap_2_Ar_3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM20" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM23" type="ttcn_function" name="fct_0_Ap_2_ArIntemp_3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM20" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="2"/>
+</Item>
+<Item id="ITEM24" type="ttcn_test_case" name="tc_2_Ap_0_Ar_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="111" columnNumber="10"/>
+</Item>
+<Item id="ITEM25" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM24" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="112" columnNumber="2"/>
+</Item>
+<Item id="ITEM26" type="ttcn_function" name="fct_2_Ap_0_Ar_3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM24" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="2"/>
+</Item>
+<Item id="ITEM27" type="ttcn_function" name="fct_0_Ap_2_Ar_6" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="56" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="45" columnNumber="10"/>
+</Item>
+<Item id="ITEM28" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM27" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="52" columnNumber="9"/>
+</Item>
+<Item id="ITEM29" type="ttcn_function" name="fct_0__Ap_2" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM27" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="47" columnNumber="5"/>
+</Item>
+<Item id="ITEM3" type="ttcn_component" name="Ascenseur" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="9" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="17" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="27" columnNumber="38"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="35" columnNumber="37"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="45" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="54" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="63" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="72" columnNumber="35"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="83" columnNumber="42"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="92" columnNumber="41"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="102" columnNumber="36"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="111" columnNumber="35"/>
+</Item>
+<Item id="ITEM30" type="ttcn_function" name="sendArriver" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM27" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="49" columnNumber="4"/>
+</Item>
+<Item id="ITEM31" type="ttcn_function" name="expectPasseEtage" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM27" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="48" columnNumber="4"/>
+</Item>
+<Item id="ITEM32" type="ttcn_function" name="expectErreurArriverInterval" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM27" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="50" columnNumber="4"/>
+</Item>
+<Item id="ITEM33" type="variable" name="RTDS_return" parentId="ITEM27" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM34" type="ttcn_function" name="fct_0_Ap_2_Ar_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="74" columnNumber="2"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="93" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="63" columnNumber="10"/>
+</Item>
+<Item id="ITEM35" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="70" columnNumber="9"/>
+</Item>
+<Item id="ITEM36" type="ttcn_function" name="fct_0__Ap_2" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM37" type="ttcn_function" name="expectErreurArriverInInterval" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="68" columnNumber="4"/>
+</Item>
+<Item id="ITEM38" type="ttcn_function" name="expectErreurCapteurIntempestif" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM39" type="ttcn_function" name="sendArriver" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="67" columnNumber="4"/>
+</Item>
+<Item id="ITEM4" type="ttcn_module" name="Projet_SC_Scenarios_tests_import_Increment_1_v0_3" scope="package" defined="FALSE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="2" columnNumber="14"/>
+</Item>
+<Item id="ITEM40" type="ttcn_function" name="expectPasseEtage" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="66" columnNumber="4"/>
+</Item>
+<Item id="ITEM41" type="ttcn_function" name="fct_2__Ap_0" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM34" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="65" columnNumber="5"/>
+</Item>
+<Item id="ITEM42" type="variable" name="RTDS_return" parentId="ITEM34" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM43" type="ttcn_test_case" name="tc_0_Ap_2_Ar_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="72" columnNumber="10"/>
+</Item>
+<Item id="ITEM44" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM43" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="73" columnNumber="2"/>
+</Item>
+<Item id="ITEM45" type="ttcn_function" name="fct_0_Ap_2_Ar_3" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM43" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="74" columnNumber="2"/>
+</Item>
+<Item id="ITEM46" type="ttcn_function" name="fct_0_Ap_2_ArIntemp_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="94" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="83" columnNumber="10"/>
+</Item>
+<Item id="ITEM47" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="90" columnNumber="9"/>
+</Item>
+<Item id="ITEM48" type="ttcn_function" name="fct_0__Ap_2" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="85" columnNumber="5"/>
+</Item>
+<Item id="ITEM49" type="ttcn_function" name="delay" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="86" columnNumber="4"/>
+</Item>
+<Item id="ITEM5" type="ttcn_module" name="Projet_SC_Scenarios_tests_nominaux_Increment_1_v0_3" scope="package" defined="FALSE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="3" columnNumber="14"/>
+</Item>
+<Item id="ITEM50" type="ttcn_function" name="expectErreurCapteurIntempestif" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="88" columnNumber="4"/>
+</Item>
+<Item id="ITEM51" type="ttcn_function" name="sendArriver" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="87" columnNumber="4"/>
+</Item>
+<Item id="ITEM52" type="variable" name="tpsInfPassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM46" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="86" columnNumber="10"/>
+</Item>
+<Item id="ITEM53" type="variable" name="RTDS_return" parentId="ITEM46" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM54" type="ttcn_function" name="fct_0_Ap_2_noAr_1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="19" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="9" columnNumber="10"/>
+</Item>
+<Item id="ITEM55" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="15" columnNumber="9"/>
+</Item>
+<Item id="ITEM56" type="ttcn_function" name="fct_0__Ap_2" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="11" columnNumber="5"/>
+</Item>
+<Item id="ITEM57" type="ttcn_function" name="delay" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="12" columnNumber="4"/>
+</Item>
+<Item id="ITEM58" type="variable" name="tpsLimitePassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="12" columnNumber="10"/>
+</Item>
+<Item id="ITEM59" type="ttcn_function" name="expectErreurArriverTropTard" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="13" columnNumber="4"/>
+</Item>
+<Item id="ITEM6" type="ttcn_function" name="fct_0_Vo_2_noAr_1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="27" columnNumber="10"/>
+</Item>
+<Item id="ITEM60" type="ttcn_function" name="fc_0__Ap_2" scope="global" defined="FALSE" anchorItemId="ITEM54" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM61" type="variable" name="RTDS_return" parentId="ITEM54" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM62" type="ttcn_function" name="fct_2_Ap_0_Ar_3" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3">
+<SourceFilePosition isDefine="FALSE" lineNumber="113" columnNumber="2"/>
+<SourceFilePosition isDefine="TRUE" lineNumber="102" columnNumber="10"/>
+</Item>
+<Item id="ITEM63" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="109" columnNumber="9"/>
+</Item>
+<Item id="ITEM64" type="ttcn_function" name="delay" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="4"/>
+</Item>
+<Item id="ITEM65" type="ttcn_function" name="expectErreurArriverInInterval" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="107" columnNumber="4"/>
+</Item>
+<Item id="ITEM66" type="ttcn_function" name="sendArriver" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="106" columnNumber="4"/>
+</Item>
+<Item id="ITEM67" type="variable" name="tpsPassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="105" columnNumber="10"/>
+</Item>
+<Item id="ITEM68" type="ttcn_function" name="fct_2__Ap_0" parentId="ITEM5" scope="global" defined="FALSE" anchorItemId="ITEM62" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="104" columnNumber="5"/>
+</Item>
+<Item id="ITEM69" type="variable" name="RTDS_return" parentId="ITEM62" scope="none" variableTypeName="boolean" variableTypeId="ITEM2" formalParameterOrder="-1" isFormalParam="TRUE" isSyntype="FALSE">
+</Item>
+<Item id="ITEM7" type="variable" name="tc_continue" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<AlternateType type="ttcn_template"/>
+<AlternateType type="timer"/>
+<SourceFilePosition isDefine="FALSE" lineNumber="33" columnNumber="9"/>
+</Item>
+<Item id="ITEM70" type="ttcn_test_case" name="tc_0_Vo_2_noAr_1" parentId="ITEM1" scope="none" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE" runsOn="ITEM3" systemInterface="ITEM3">
+<SourceFilePosition isDefine="TRUE" lineNumber="35" columnNumber="10"/>
+</Item>
+<Item id="ITEM71" type="ttcn_function" name="tc_init" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM70" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="36" columnNumber="2"/>
+</Item>
+<Item id="ITEM72" type="ttcn_function" name="fct_0_Vo_2_noAr_1" parentId="ITEM1" scope="global" defined="FALSE" anchorItemId="ITEM70" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="37" columnNumber="2"/>
+</Item>
+<Item id="ITEM8" type="ttcn_function" name="delay" parentId="ITEM4" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<SourceFilePosition isDefine="FALSE" lineNumber="30" columnNumber="4"/>
+</Item>
+<Item id="ITEM9" type="ttcn_function" name="fc_0__Vo_2" scope="global" defined="FALSE" anchorItemId="ITEM6" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+</Item>
+</DictionaryObjects>

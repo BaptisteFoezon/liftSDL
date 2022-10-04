@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DictionaryObjects SYSTEM "rtdsDictionaryObjects.dtd">
+
+<DictionaryObjects version="10135" language="none" diagramType="sys">
+<Signal id="SIG1" name="monter">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="1,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG10" name="erreurArriverTropTard">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="1,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG11" name="erreurArriverInInterval">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="4,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG12" name="erreurArriverInterval">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="2,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG13" name="erreurTODOetc">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="8,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG14" name="erreurCapteurIntempestif">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="3,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG2" name="appeler">
+<SignalParameterType>Natural</SignalParameterType>
+<SignalParameterTypeId typeItemId="ITEM3"/>
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="2,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG3" name="voyager">
+<SignalParameterType>Natural</SignalParameterType>
+<SignalParameterTypeId typeItemId="ITEM3"/>
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="2,18"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG4" name="descendre">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="1,8"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG5" name="stopper">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="1,19"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG6" name="arriver">
+<SignalParameterType>Natural</SignalParameterType>
+<SignalParameterTypeId typeItemId="ITEM3"/>
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB14" positions="2,36"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG7" name="erreurTODO2">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="6,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG8" name="erreurTODO3">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="7,0"/>
+</DefiningSymbols>
+</Signal>
+<Signal id="SIG9" name="erreurTODO1">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB30" positions="5,0"/>
+</DefiningSymbols>
+</Signal>
+<Item id="ITEM1" type="system" name="Ascenseur" scope="current" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYMB18"/>
+<SymbolReference symbolId="SYMB4"/>
+<SymbolReference symbolId="SYMB13"/>
+</UsingSymbols>
+<SignalWindow id="SIGWDW6" insideDiagram="TRUE">
+<ConnectorReference linkId="LINK63" isFrom="TRUE"/>
+<Connections>
+<Connection name="CommandesCabine"/>
+</Connections>
+<SentSignals>
+<SignalReference id="SIG3"/>
+</SentSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW7" insideDiagram="TRUE">
+<ConnectorReference linkId="LINK61" isFrom="FALSE"/>
+<Connections>
+<Connection name="Erreur"/>
+</Connections>
+<ReceivedSignals>
+<SignalReference id="SIG10"/>
+<SignalReference id="SIG12"/>
+<SignalReference id="SIG11"/>
+<SignalReference id="SIG14"/>
+<SignalReference id="SIG7"/>
+<SignalReference id="SIG8"/>
+<SignalReference id="SIG13"/>
+</ReceivedSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW8" insideDiagram="TRUE">
+<ConnectorReference linkId="LINK65" isFrom="FALSE"/>
+<Connections>
+<Connection name="Moteur"/>
+</Connections>
+<ReceivedSignals>
+<SignalReference id="SIG1"/>
+<SignalReference id="SIG4"/>
+<SignalReference id="SIG5"/>
+</ReceivedSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW9" insideDiagram="TRUE">
+<ConnectorReference linkId="LINK62" isFrom="FALSE"/>
+<Connections>
+<Connection name="CapteursEtages"/>
+</Connections>
+<SentSignals>
+<SignalReference id="SIG6"/>
+</SentSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW10" insideDiagram="TRUE">
+<ConnectorReference linkId="LINK64" isFrom="FALSE"/>
+<Connections>
+<Connection name="CommandesEtages"/>
+</Connections>
+<SentSignals>
+<SignalReference id="SIG2"/>
+</SentSignals>
+</SignalWindow>
+<Channel name="CommandesCabine" fromSignalWindow="SIGWDW6" toSignalWindow="SIGWDW1"/>
+<Channel name="Erreur" fromSignalWindow="SIGWDW2" toSignalWindow="SIGWDW7"/>
+<Channel name="Moteur" fromSignalWindow="SIGWDW3" toSignalWindow="SIGWDW8"/>
+<Channel name="CapteursEtages" fromSignalWindow="SIGWDW4" toSignalWindow="SIGWDW9"/>
+<Channel name="CommandesEtages" fromSignalWindow="SIGWDW5" toSignalWindow="SIGWDW10"/>
+</Item>
+<Item id="ITEM10" type="variable" name="tpsLimitePassageEtage" parentId="ITEM1" scope="none" variableTypeName="Duration" variableTypeId="ITEM2" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB25" positions="1,8"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM11" type="block" name="Pilotage" parentId="ITEM1" scope="none" minInstances="1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB8"/>
+</DefiningSymbols>
+<UsingSymbols>
+<SymbolReference symbolId="SYMB8"/>
+</UsingSymbols>
+<SignalWindow id="SIGWDW4" insideDiagram="FALSE">
+<ConnectorReference linkId="LINK62" isFrom="TRUE"/>
+<ReceivedSignals>
+<SignalReference id="SIG6"/>
+</ReceivedSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW5" insideDiagram="FALSE">
+<ConnectorReference linkId="LINK64" isFrom="TRUE"/>
+<ReceivedSignals>
+<SignalReference id="SIG2"/>
+</ReceivedSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW1" insideDiagram="FALSE">
+<ConnectorReference linkId="LINK63" isFrom="FALSE"/>
+<ReceivedSignals>
+<SignalReference id="SIG3"/>
+</ReceivedSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW2" insideDiagram="FALSE">
+<ConnectorReference linkId="LINK61" isFrom="TRUE"/>
+<SentSignals>
+<SignalReference id="SIG10"/>
+<SignalReference id="SIG12"/>
+<SignalReference id="SIG11"/>
+<SignalReference id="SIG14"/>
+<SignalReference id="SIG7"/>
+<SignalReference id="SIG8"/>
+<SignalReference id="SIG13"/>
+</SentSignals>
+</SignalWindow>
+<SignalWindow id="SIGWDW3" insideDiagram="FALSE">
+<ConnectorReference linkId="LINK65" isFrom="TRUE"/>
+<SentSignals>
+<SignalReference id="SIG1"/>
+<SignalReference id="SIG4"/>
+<SignalReference id="SIG5"/>
+</SentSignals>
+</SignalWindow>
+</Item>
+<Item id="ITEM2" type="type" name="Duration" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYMB25"/>
+<SymbolReference symbolId="SYMB19"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM3" type="type" name="Natural" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYMB14"/>
+<SymbolReference symbolId="SYMB24"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM4" type="variable" name="tpsPassageEtage" scope="global" defined="FALSE" anchorItemId="ITEM1" searchPolicy="-1" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<UsingSymbols>
+<SymbolReference symbolId="SYMB25"/>
+</UsingSymbols>
+</Item>
+<Item id="ITEM5" type="variable" name="tpsAttenteFinService" parentId="ITEM1" scope="none" variableTypeName="Duration" variableTypeId="ITEM2" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB19" positions="1,8"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM6" type="variable" name="tpsAttenteServiceVoyage" parentId="ITEM1" scope="none" variableTypeName="Duration" variableTypeId="ITEM2" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB19" positions="0,8"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM7" type="variable" name="etageMax" parentId="ITEM1" scope="none" variableTypeName="Natural" variableTypeId="ITEM3" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB24" positions="1,8"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM8" type="variable" name="etageMin" parentId="ITEM1" scope="none" variableTypeName="Natural" variableTypeId="ITEM3" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB24" positions="0,8"/>
+</DefiningSymbols>
+</Item>
+<Item id="ITEM9" type="variable" name="tpsPassageEtage" parentId="ITEM1" scope="none" variableTypeName="Duration" variableTypeId="ITEM2" isSynonym="TRUE" formalParameterOrder="-" isFormalParam="FALSE" isSyntype="FALSE">
+<DefiningSymbols>
+<SymbolReference symbolId="SYMB25" positions="0,8"/>
+</DefiningSymbols>
+</Item>
+</DictionaryObjects>

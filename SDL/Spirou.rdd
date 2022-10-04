@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Diagram SYSTEM "rtdsDiagram.dtd">
+
+<SdlFSMDiagram language="sdl" type="prcs" is_extract="FALSE" is_temporary="FALSE">
+<SdlFSMPartition name="Declaration" needs_cleanup="FALSE">
+<SdlFSMSymbol identifier="SYM86" type="sdlText" text="DCL
+etage Natural,
+etageCourant Natural,
+etageServi Natural,
+tdepart Time,
+sens Integer;" outline_color="-" background_color="-" center_coordinates="143 100" dimensions="188 104" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM87" type="sdlText" text="TIMER
+timerAttenteServiceVoyage,
+timerAttenteFinService;" outline_color="-" background_color="-" center_coordinates="161 228" dimensions="228 62" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM88" type="sdlPrcdDecl" text="deplacerCabine" outline_color="-" background_color="-" center_coordinates="119 338" dimensions="132 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM89" type="sdlPrcdDecl" text="arreterCabine" outline_color="-" background_color="-" center_coordinates="115 436" dimensions="124 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM96" type="sdlText" text="TIMER
+timerPassageEtage;" outline_color="-" background_color="-" center_coordinates="132 511" dimensions="164 48" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM125" type="sdlPrcdDecl" text="verification" outline_color="-" background_color="-" center_coordinates="337 387" dimensions="116 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM126" type="sdlText" text="DCL
+timediff Duration;" outline_color="-" background_color="-" center_coordinates="464 194" dimensions="164 48" attached_symbol_id=""/>
+<PageSpecification pageWidth="21.0" pageHeight="29.7" topMargin="1.0" bottomMargin="1.0" leftMargin="1.0" rightMargin="1.0" pageFooter="TRUE" scaleFactor="1.0"/>
+</SdlFSMPartition>
+<SdlFSMPartition name="Model" needs_cleanup="FALSE">
+<NonStateTransition top_left_coordinates="75 64">
+<SdlFSMSymbol identifier="SYM3" type="sdlStart" outline_color="-" background_color="-" center_coordinates="157 79" dimensions="60 30" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM4" type="sdlTask" text="etage := 0;
+sens := 0;
+etageCourant := 0;
+etageServi := 0;" outline_color="-" background_color="-" center_coordinates="157 144" dimensions="164 76" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM5" type="sdlState" text="Disponible" outline_color="-" background_color="-" center_coordinates="157 214" dimensions="100 40" attached_symbol_id=""/>
+</Transition>
+</NonStateTransition>
+<StateTransitionBlock top_left_coordinates="325 59">
+<SdlFSMSymbol identifier="SYM6" type="sdlState" text="Disponible" outline_color="-" background_color="-" center_coordinates="585 79" dimensions="100 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM7" type="sdlInputSig" text="appeler(etage)" outline_color="-" background_color="-" center_coordinates="585 131" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM12" type="sdlDecision" text="CALL deplacerCabine" outline_color="-" background_color="-" center_coordinates="585 183" dimensions="172 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM15" type="sdlAnswer" text="= 0" outline_color="-" background_color="-" center_coordinates="585 235" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM18" type="sdlInitTimer" text="SET(NOW + tpsAttenteServiceVoyage, timerAttenteServiceVoyage)" outline_color="-" background_color="-" center_coordinates="585 287" dimensions="520 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM19" type="sdlState" text="AttenteServiceVoyage" outline_color="-" background_color="-" center_coordinates="585 339" dimensions="180 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM90" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="913 235" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM91" type="sdlState" text="ServiceAppel" outline_color="-" background_color="-" center_coordinates="913 287" dimensions="116 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="346 467">
+<SdlFSMSymbol identifier="SYM21" type="sdlState" text="Disponible" outline_color="-" background_color="-" center_coordinates="582 487" dimensions="100 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM22" type="sdlInputSig" text="voyager(etage)" outline_color="-" background_color="-" center_coordinates="582 539" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM24" type="sdlDecision" text="CALL deplacerCabine" outline_color="-" background_color="-" center_coordinates="582 591" dimensions="172 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM27" type="sdlAnswer" text="= 0" outline_color="-" background_color="-" center_coordinates="582 643" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM29" type="sdlInitTimer" text="SET(NOW + tpsAttenteFinService, timerAttenteFinService)" outline_color="-" background_color="-" center_coordinates="582 695" dimensions="472 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM32" type="sdlState" text="AttenteFinService" outline_color="-" background_color="-" center_coordinates="582 747" dimensions="156 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM92" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="890 643" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM93" type="sdlState" text="ServiceVoyage" outline_color="-" background_color="-" center_coordinates="890 695" dimensions="124 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1249 59">
+<SdlFSMSymbol identifier="SYM34" type="sdlState" text="ServiceAppel" outline_color="-" background_color="-" center_coordinates="1379 79" dimensions="116 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM35" type="sdlInputSig" text="appeler(etage), voyager(etage)" outline_color="-" background_color="-" center_coordinates="1379 131" dimensions="260 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM36" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="1379 183" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1637 59">
+<SdlFSMSymbol identifier="SYM37" type="sdlState" text="ServiceAppel" outline_color="-" background_color="-" center_coordinates="1897 79" dimensions="116 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM38" type="sdlInputSig" text="arriver(etage)" outline_color="-" background_color="-" center_coordinates="1897 131" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM40" type="sdlDecision" text="CALL arreterCabine" outline_color="-" background_color="-" center_coordinates="1897 183" dimensions="164 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM41" type="sdlAnswer" text="true" outline_color="-" background_color="-" center_coordinates="1897 235" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM45" type="sdlInitTimer" text="SET(NOW + tpsAttenteServiceVoyage, timerAttenteServiceVoyage)" outline_color="-" background_color="-" center_coordinates="1897 287" dimensions="520 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM46" type="sdlState" text="AttenteServiceVoyage" outline_color="-" background_color="-" center_coordinates="1897 339" dimensions="180 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM42" type="sdlAnswer" text="false" outline_color="-" background_color="-" center_coordinates="2204 235" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM43" type="sdlState" text="Erreur" outline_color="-" background_color="-" center_coordinates="2204 287" dimensions="74 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NormalStateTransition>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM97" type="sdlInputSig" text="timerPassageEtage" outline_color="-" background_color="-" center_coordinates="2345 131" dimensions="156 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM98" type="sdlSendSig" text="erreurArriverTropTard" outline_color="-" background_color="-" center_coordinates="2345 183" dimensions="188 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM99" type="sdlState" text="Erreur" outline_color="-" background_color="-" center_coordinates="2345 235" dimensions="68 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="335 886">
+<SdlFSMSymbol identifier="SYM47" type="sdlState" text="AttenteServiceVoyage" outline_color="-" background_color="-" center_coordinates="571 906" dimensions="180 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM48" type="sdlInputSig" text="voyager(etage)" outline_color="-" background_color="-" center_coordinates="571 958" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM50" type="sdlResetTimer" text="RESET(timerAttenteServiceVoyage)" outline_color="-" background_color="-" center_coordinates="571 1010" dimensions="288 40" attached_symbol_id=""/>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM52" type="sdlDecision" text="CALL deplacerCabine" outline_color="-" background_color="-" center_coordinates="571 1062" dimensions="172 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM55" type="sdlAnswer" text="= 0" outline_color="-" background_color="-" center_coordinates="571 1114" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM60" type="sdlInitTimer" text="SET(NOW + tpsAttenteFinService, timerAttenteFinService)" outline_color="-" background_color="-" center_coordinates="571 1166" dimensions="472 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM61" type="sdlState" text="AttenteFinService" outline_color="-" background_color="-" center_coordinates="571 1218" dimensions="156 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM94" type="sdlAnswer" text="else" outline_color="-" background_color="-" center_coordinates="879 1114" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM95" type="sdlState" text="ServiceVoyage" outline_color="-" background_color="-" center_coordinates="879 1166" dimensions="124 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NormalStateTransition>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM63" type="sdlInputSig" text="timerAttenteServiceVoyage" outline_color="-" background_color="-" center_coordinates="1061 958" dimensions="220 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM64" type="sdlState" text="Disponible" outline_color="-" background_color="-" center_coordinates="1061 1010" dimensions="100 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1284 886">
+<SdlFSMSymbol identifier="SYM65" type="sdlState" text="AttenteServiceVoyage" outline_color="-" background_color="-" center_coordinates="1374 906" dimensions="180 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM66" type="sdlInputSig" text="appeler(etage)" outline_color="-" background_color="-" center_coordinates="1374 958" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM67" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="1374 1010" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1658 1061">
+<SdlFSMSymbol identifier="SYM68" type="sdlState" text="ServiceVoyage" outline_color="-" background_color="-" center_coordinates="1894 1081" dimensions="124 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM69" type="sdlInputSig" text="arriver(etage)" outline_color="-" background_color="-" center_coordinates="1894 1133" dimensions="132 40" attached_symbol_id=""/>
+<Transition>
+<DecisionBlock>
+<SdlFSMSymbol identifier="SYM71" type="sdlDecision" text="CALL arreterCabine" outline_color="-" background_color="-" center_coordinates="1894 1185" dimensions="164 40" attached_symbol_id=""/>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM72" type="sdlAnswer" text="true" outline_color="-" background_color="-" center_coordinates="1894 1237" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM75" type="sdlInitTimer" text="SET(NOW + tpsAttenteFinService, timerAttenteFinService)" outline_color="-" background_color="-" center_coordinates="1894 1289" dimensions="472 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM76" type="sdlState" text="AttenteFinService" outline_color="-" background_color="-" center_coordinates="1894 1341" dimensions="156 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+<DecisionBranch>
+<SdlFSMSymbol identifier="SYM73" type="sdlAnswer" text="false" outline_color="-" background_color="-" center_coordinates="2170 1237" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM77" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="2170 1289" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</DecisionBranch>
+</DecisionBlock>
+</Transition>
+</NormalStateTransition>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM100" type="sdlInputSig" text="timerPassageEtage" outline_color="-" background_color="-" center_coordinates="2304 1133" dimensions="156 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM101" type="sdlSendSig" text="erreurArriverTropTard" outline_color="-" background_color="-" center_coordinates="2304 1185" dimensions="188 40" attached_symbol_id=""/>
+<SdlFSMSymbol identifier="SYM102" type="sdlState" text="Erreur" outline_color="-" background_color="-" center_coordinates="2304 1237" dimensions="68 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1249 467">
+<SdlFSMSymbol identifier="SYM78" type="sdlState" text="ServiceVoyage" outline_color="-" background_color="-" center_coordinates="1379 487" dimensions="124 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM79" type="sdlInputSig" text="appeler(etage), voyager(etage)" outline_color="-" background_color="-" center_coordinates="1379 539" dimensions="260 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM80" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="1379 591" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="1779 886">
+<SdlFSMSymbol identifier="SYM81" type="sdlState" text="AttenteFinService" outline_color="-" background_color="-" center_coordinates="1877 906" dimensions="156 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM82" type="sdlInputSig" text="timerAttenteFinService" outline_color="-" background_color="-" center_coordinates="1877 958" dimensions="196 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM83" type="sdlState" text="Disponible" outline_color="-" background_color="-" center_coordinates="1877 1010" dimensions="100 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM84" type="sdlInputSig" text="appeler(etage), voyager(etage)" outline_color="-" background_color="-" center_coordinates="2115 958" dimensions="260 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM85" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="2115 1010" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<StateTransitionBlock top_left_coordinates="2675 108">
+<SdlFSMSymbol identifier="SYM104" type="sdlState" text="Erreur" outline_color="-" background_color="-" center_coordinates="2709 128" dimensions="68 40" attached_symbol_id=""/>
+<NormalStateTransition>
+<SdlFSMSymbol identifier="SYM105" type="sdlInputSig" text="*" outline_color="-" background_color="-" center_coordinates="2709 180" dimensions="60 40" attached_symbol_id=""/>
+<Transition>
+<SdlFSMSymbol identifier="SYM106" type="sdlState" text="-" outline_color="-" background_color="-" center_coordinates="2709 232" dimensions="60 40" attached_symbol_id=""/>
+</Transition>
+</NormalStateTransition>
+</StateTransitionBlock>
+<PageSpecification pageWidth="21.0" pageHeight="29.7" topMargin="1.0" bottomMargin="1.0" leftMargin="1.0" rightMargin="1.0" pageFooter="TRUE" scaleFactor="1.0"/>
+</SdlFSMPartition>
+</SdlFSMDiagram>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE PrototypingGui SYSTEM "rtdsPrototypingGui.dtd">
+
+<PrototypingGui>
+<Gui width="400" height="300" backgroundColor="#000000" backgroundImage="">
+<Widget id="1" name="App.0" type="BUTTON" x="20" y="20" width="40" height="20" text="App. 0" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=0"></OutputAction>
+</Widget>
+<Widget id="2" name="App.1" type="BUTTON" x="80" y="20" width="40" height="20" text="App. 1" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=1"></OutputAction>
+</Widget>
+<Widget id="3" name="App.2" type="BUTTON" x="140" y="20" width="40" height="20" text="App. 2" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=2"></OutputAction>
+</Widget>
+<Widget id="4" name="App.3" type="BUTTON" x="200" y="20" width="40" height="20" text="App. 3" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=3"></OutputAction>
+</Widget>
+<Widget id="5" name="App.4" type="BUTTON" x="260" y="20" width="40" height="20" text="App. 4" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=4"></OutputAction>
+</Widget>
+<Widget id="6" name="App.5" type="BUTTON" x="320" y="20" width="40" height="20" text="App. 5" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=5"></OutputAction>
+</Widget>
+<Widget id="8" name="Voy.0" type="BUTTON" x="20" y="50" width="40" height="20" text="Voy. 0" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=0"></OutputAction>
+</Widget>
+<Widget id="9" name="Voy.1" type="BUTTON" x="80" y="50" width="40" height="20" text="Voy. 1" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=1"></OutputAction>
+</Widget>
+<Widget id="10" name="Voy.2" type="BUTTON" x="140" y="50" width="40" height="20" text="Voy. 2" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=2"></OutputAction>
+</Widget>
+<Widget id="11" name="Voy.3" type="BUTTON" x="200" y="50" width="40" height="20" text="Voy. 3" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=3"></OutputAction>
+</Widget>
+<Widget id="12" name="Voy.4" type="BUTTON" x="260" y="50" width="40" height="20" text="Voy. 4" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=4"></OutputAction>
+</Widget>
+<Widget id="13" name="Voy.5" type="BUTTON" x="320" y="50" width="40" height="20" text="Voy. 5" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=5"></OutputAction>
+</Widget>
+<Widget id="14" name="Arr.0" type="BUTTON" x="20" y="80" width="40" height="20" text="Arr. 0" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=0"></OutputAction>
+</Widget>
+<Widget id="15" name="Arr.1" type="BUTTON" x="80" y="80" width="40" height="20" text="Arr. 1" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=1"></OutputAction>
+</Widget>
+<Widget id="16" name="Arr.2" type="BUTTON" x="140" y="80" width="40" height="20" text="Arr. 2" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=2"></OutputAction>
+</Widget>
+<Widget id="17" name="Arr.3" type="BUTTON" x="200" y="80" width="40" height="20" text="Arr. 3" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=3"></OutputAction>
+</Widget>
+<Widget id="18" name="Arr.4" type="BUTTON" x="260" y="80" width="40" height="20" text="Arr. 4" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=4"></OutputAction>
+</Widget>
+<Widget id="19" name="Arr.5" type="BUTTON" x="320" y="80" width="40" height="20" text="Arr. 5" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=5"></OutputAction>
+</Widget>
+<Widget id="20" name="App.6" type="BUTTON" x="20" y="140" width="40" height="20" text="App. 6" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="appeler" data="param1|=6"></OutputAction>
+</Widget>
+<Widget id="21" name="Voy.6" type="BUTTON" x="20" y="170" width="40" height="20" text="Voy. 6" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="voyager" data="param1|=6"></OutputAction>
+</Widget>
+<Widget id="22" name="Arr.6" type="BUTTON" x="20" y="200" width="40" height="20" text="Arr. 6" textColor="#000000" color="#C4EFED">
+<OutputAction messageName="arriver" data="param1|=6"></OutputAction>
+</Widget>
+</Gui>
+</PrototypingGui>
